@@ -152,7 +152,7 @@ tags:
 > #### Practical
 > N/A
 
-> [!info]- Week 14
+> [!important]- Week 14
 > ![[semesterCalendarS2#School Events - Week 14]]
 > #### Class Tasks
 > N/A

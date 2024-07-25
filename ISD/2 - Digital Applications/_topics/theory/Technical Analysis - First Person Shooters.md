@@ -1,3 +1,8 @@
+# Resources
+https://krunker.io
+http://browser-doom.io/?page=game&game=doom&profile=Doom%20(Shareware)
+
+
 
 > [!info] Google Gemini (2024, July 8) 
 ## Level Up Your Game Knowledge: Analyzing FPS Mechanics
