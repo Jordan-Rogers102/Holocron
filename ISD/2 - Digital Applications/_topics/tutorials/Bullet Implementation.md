@@ -167,3 +167,59 @@ Select Connect.
 Save the Bullet Scene.
 
 ![[commonBlocks#Commit & Push]]
+# Add the bullet spawn point
+
+Before the bullet can be instantiated (spawned), you need to define where it will be instantiated. 
+Right click on the Camera3D node, add child node. Select Node3D.
+
+![bulletPlayerAddSpawnPoint](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletPlayerAddSpawnPoint.png)
+
+Rename the node to `bulletSpawn`.
+
+![bulletPlayerRenameSpawn](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletPlayerRenameSpawn.png)
+
+
+# Update Player Script
+The bullet scene has been created, now it's time to allow the player to shoot.
+
+Open `Player.gd`.
+
+Add the following variables at the top of the script.
+
+![bulletPlayerVariables](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletPlayerVariables.png)
+
+```gdscript
+var bulletScene = preload("res://Scenes - Other/bullet.tscn")
+var bulletSpawn 
+var ammo : int = 5
+var player_health = 100
+```
+
+Update the `_ready` function to link the bulletSpawn variable to the bulletSpawn node.
+
+![bulletPlayerScriptLinkSpawnPoint](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletPlayerScriptLinkSpawnPoint.png)
+
+```gdscript
+bulletSpawn = get_node("Camera3D/bulletSpawn")
+```
+
+![bulletPlayerCheckShoot](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletPlayerCheckShoot.png)
+
+```gdscript
+	if Input.is_action_just_pressed("player_shoot"):
+		shoot()
+```
+
+Add the `shoot()` function. This function creates an instance of the bullet at the `bulletSpawn` point.
+
+![bulletPlayerShoot](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletPlayerShoot.png)
+
+```gdscript
+func shoot ():
+	var bullet = bulletScene.instantiate()
+	get_node("/root/LevelOne").add_child(bullet)
+	bullet.global_transform = bulletSpawn.global_transform
+	bullet.scale = Vector3(0.1,0.1,0.1)
+
+	ammo -= 1
+```

@@ -53,5 +53,14 @@
   "anuppuccin-theme-settings@@anp-depth-tab-opacity": 0.6,
   "anuppuccin-theme-settings@@anp-depth-tab-gap": 10,
   "anuppuccin-theme-settings@@anp-safari-tab-animated": true,
-  "anuppuccin-theme-settings@@anp-layout-select": "anp-border-layout"
+  "anuppuccin-theme-settings@@anp-layout-select": "anp-border-layout",
+  "Appearance-light@@card-layout-open-light": false,
+  "Components@@CTA-BTN-enable": false,
+  "Components@@file-names-untrim": false,
+  "Components@@folder-font-bold": false,
+  "Components@@file-icon-remove": false,
+  "Components@@colorful-folder": false,
+  "Components@@tab-autohide": false,
+  "Components@@status-bar-autohide": false,
+  "Components@@outline-enhanced": false
 }

@@ -47,7 +47,9 @@ Submit the assigned Google Doc with the following information:
 
 ### Week 2
 ![[semesterCalendarS2#School Events - Week 2]] 
+#### Video
 
+![https://youtu.be/UAeLuI6xGvo](https://youtu.be/UAeLuI6xGvo)
 #### Class Tasks
 N/A
 #### Theory
@@ -55,6 +57,9 @@ N/A
 #### Practical
 - [ ] [Todo List](/WebDev/_shared/Projects/ANH/todoList.md)
 
+#### Submission
+Submit the assigned Google Doc with the following information:
+- [ ] Screenshots/Gif of TODO list working
 
 ### Week 3 - Assessment Week
  ![[semesterCalendarS2#School Events - Week 3]]

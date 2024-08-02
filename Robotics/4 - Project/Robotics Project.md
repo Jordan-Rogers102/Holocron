@@ -18,7 +18,7 @@ tags:
 > - [ ] [Project Goals](Robotics/4%20-%20Project/_projects/CyberRange/Project%20Goals.md)
 > - [ ] [User Centred Design](_sharedContent/User%20Centred%20Design.md)
 > #### Practical
-> N/A
+> - [ ] [Project Status Breakdown](Robotics/4%20-%20Project/_projects/CyberRange/Project%20Status%20Breakdown.md)
 
 > [!info]- Week 2
 > ![[semesterCalendarS2#School Events - Week 2]] 
@@ -27,7 +27,7 @@ tags:
 > #### Theory
 > N/A
 > #### Practical
-> N/A
+> - [ ] [Project Rebuild & Focus](Robotics/4%20-%20Project/_projects/CyberRange/Project%20Rebuild%20&%20Focus.md)
 
 > [!danger]- Week 3
 > ![[semesterCalendarS2#School Events - Week 3]]

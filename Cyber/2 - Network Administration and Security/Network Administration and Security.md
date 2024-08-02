@@ -29,8 +29,7 @@ tags:
 > - [ ] [Network Plan](Cyber/2%20-%20Network%20Administration%20and%20Security/Projects/BACTA/Network%20Plan.md)
 > #### Theory
 > - [ ] [Domain Controllers](Cyber/2%20-%20Network%20Administration%20and%20Security/Projects/BACTA/Domain%20Controllers.md)
-> - [ ] [Users and Groups](Cyber/2%20-%20Network%20Administration%20and%20Security/Projects/BACTA/Users%20and%20Groups.md)
-> - [ ] [Databases](Cyber/2%20-%20Network%20Administration%20and%20Security/Projects/BACTA/Databases.md)
+> - [ ] [Packet Tracer - Configure Servers](Cyber/2%20-%20Network%20Administration%20and%20Security/Projects/BACTA/Packet%20Tracer%20-%20Configure%20Servers.md)
 > #### Practical
 > N/A
 
