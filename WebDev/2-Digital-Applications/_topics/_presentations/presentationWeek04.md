@@ -1,11 +1,72 @@
 # Welcome to Week 4
 
-
+Focus: Resume Builder
 
 ---
-# Slide 2
+# Resume Builder
 
+Three components:
+1. Creating Resume Entries
+2. Editing Resume Entries
+3. Displaying complete Resume
 
+---
+
+# Database
+
+All the experience data will be stored in one table. 
+
+![resumeERD](/WebDev/_shared/Projects/ANH/images/resumeERD.png)
+
+`userID` is the current user's id from the `user` table.
+
+note: Both work and education experience will be stored in one table, as they are both very similar data required.
+The boolean `experienceWork` identifies it as work (true) or education (false).
+
+---
+# Code Updates
+
+Model-View-Controller
+
+A more complex version of the TODO app.
+
+Creating:
+- Templates (View),
+- Database & `model.py` (Model)
+- `app.py` & `forms.py` (Controller)
+
+---
+# Resume Build
+
+![resumeBuildTemplateFormEntry](/WebDev/_shared/Projects/ANH/images/resumeBuildTemplateFormEntry.png)
+
+---
+
+# Resume Edit
+
+![resumeEditPreview](/WebDev/_shared/Projects/ANH/images/resumeEditPreview.png)
+
+---
+
+# Resume Display
+
+![resumeDisplayCardExample2](/WebDev/_shared/Projects/ANH/images/resumeDisplayCardExample2.png)
+
+---
+# Improvements?
+
+What else goes on a resume?
+
+![resumeExampleWikiCommons](/WebDev/_shared/Projects/ANH/images/resumeExampleGenerated.png)
+
+note: - Personal information
+	- Name
+	- Contact Details
+	- Photo?
+- Referees
+	- Name
+	- Contact Details
+What database changes would need to be made to support these additions?
 ---
 
 # Questions?

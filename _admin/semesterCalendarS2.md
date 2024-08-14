@@ -11,12 +11,12 @@ tags:
 N/A
 
 #### School Events - Week 3
-**Thursday** - Ryan out of school.
+**Thursday** - Ryan is out of school.
 
 #### School Events - Week 4
-**Monday Afternoon** - Ryan out of school 
-**Tuesday** - Ryan out of school.
-**Wednesday** - Ryan out of school.
+**Monday Afternoon** - Ryan is out of school 
+**Tuesday** - Ryan is out of school.
+**Wednesday** - Ryan is out of school.
 
 #### School Events - Week 5
 **Thursday** - Moderation Day.
@@ -29,9 +29,9 @@ N/A
 **Wednesday** - AST Exams.
 
 #### School Events - Week 8
-**Tuesday** - Ryan out of school.
-**Wednesday** - Ryan out of school.
-**Thursday** - Ryan out of school & Cross Line Exams.
+**Tuesday** - Ryan is out of school.
+**Wednesday** - Ryan is out of school.
+**Thursday** - Ryan is out of school & Cross Line Exams.
 **Friday** - Cross Line Exams.
 
 #### School Events - Week 9

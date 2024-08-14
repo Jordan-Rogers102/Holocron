@@ -6,7 +6,7 @@ tags:
 
 ## Commit & Push
 
-Commit and Push!
+`Commit` and `Push` to **GitHub**
 
 ## Commit, Push & Pull Request
 

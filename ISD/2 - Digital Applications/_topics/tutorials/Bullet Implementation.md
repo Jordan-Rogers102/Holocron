@@ -22,7 +22,7 @@ Create a new Scene (Scene→New Scene).
 
 Set the Root Node as `Area3D` by selecting Other Node and search for Area3D.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-RootNode.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletRootNode.png)
 
 Create your bullet model. You can create your own mesh, or you can follow the instructions shown below.
 
@@ -30,42 +30,42 @@ Create your bullet model. You can create your own mesh, or you can follow the in
 
 For a simple bullet shape, this can be done by creating a `CSGCylinder3D` and a `CSGSphere3D` and manipulating (move and rotate) them into a bullet shape.
 
-![Screen Shot 2022-10-04 at 9.47.38 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-PositionNodes.png)
+![Screen Shot 2022-10-04 at 9.47.38 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletPositionNodes.png)
 
 Ensure that both of these CSG objects have Union Operation selected.
 
-![Screen Shot 2022-10-04 at 9.45.55 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-UnionOperation.png)
+![Screen Shot 2022-10-04 at 9.45.55 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletUnionOperation.png)
 
 Then place them as children of a `CSGCombiner3D`. Name the new node as appropriate.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-Combiner.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletCombiner.png)
 
 Texture the object as you would normally.
 
 > [!note] Search for "Metallic texture seamless" to find a metal texture for a bullet.
 
 
-![Screen Shot 2022-10-04 at 9.51.14 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-Textured.png)
+![Screen Shot 2022-10-04 at 9.51.14 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletTextured.png)
 
 Attach a `CollisionShape3D` node as a child of the scene root.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-CollisionShape3D.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletCollisionShape3D.png)
 
 With the `CollisionShape3D` selected, set the Shape to be `CapsuleShape3D`.
 
-![Screen Shot 2022-10-04 at 9.55.49 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-SetCollisionShape.png)
+![Screen Shot 2022-10-04 at 9.55.49 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletSetCollisionShape.png)
 
 Manipulate the Capsule shape, using the transform options, so that it completely surrounds the mesh.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-ManipulateCapsule.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletManipulateCapsule.png)
 
 Rename the Scene Root as `Bullet`.
 
-![Screen Shot 2022-10-04 at 9.59.07 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-RenameRoot.png)
+![Screen Shot 2022-10-04 at 9.59.07 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletRenameRoot.png)
 
 Save the scene as `Bullet.tscn`.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-SaveScene.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletSaveScene.png)
 
 ![[commonBlocks#Commit & Push]]
 
@@ -73,9 +73,9 @@ Save the scene as `Bullet.tscn`.
 
 Still in the Bullet scene, attach a new script to the root node (Bullet) and name it `Bullet.gd`.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-AttachScript1.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletAttachScript1.png)
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-AttachScript2.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletAttachScript2.png)
 
 Add two new variables to control how fast the bullet will travel, and how much damage it will inflict on the object it collides with (if configured to take damage). 
 
@@ -89,7 +89,7 @@ Add two new variables to control how fast the bullet will travel, and how much d
 
 > [!info] This can be used to allow for different weapons with different bullet speeds and damage.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/bullet-Variables.png]]
+![[ISD/2 - Digital Applications/_topics/tutorials/images/bulletVariables.png]]
 ```gdscript
 var speed : float = 30.0
 var damage : int = 1
@@ -98,7 +98,7 @@ var damage : int = 1
 
 Add code, within the `_process` function to move the bullet instance forward. 
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/bullet-ScriptMoveBullet.png]]
+![[ISD/2 - Digital Applications/_topics/tutorials/images/bulletScriptMoveBullet.png]]
 
 ```gdscript
 func _process (delta):
@@ -110,13 +110,13 @@ Save the Script.
 
 Select the root node (Bullet) and change to the Node tab. 
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-ChangeToNode.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletChangeToNode.png)
 
 Double click on `body_entered`. Press **Connect.**
 
 This code will be used to detect when the bullet instance has collided with another object - when the bullet collider enters another node’s collider.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-Signal.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletSignal.png)
 
 In order to only destroy objects that need to be destroyed, this code will first check if the other collider has a function called `take_damage` in its script. This means that a script attached to the enemy objects can have that function, and will take damage, however a wall doesn't need that function, so it won’t be destroyed.
 
@@ -126,7 +126,7 @@ Also added is the `destroy()` function. This simply deletes the bullet from the 
 
 This has been added in such a way to allow for future modification as required.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/bullet-ScriptDamageDestroy.png]]
+![[ISD/2 - Digital Applications/_topics/tutorials/images/bulletScriptDamageDestroy.png]]
 
 ```gdscript
 func _on_Bullet_body_entered(body):
@@ -145,11 +145,11 @@ A potential problem with creating instances of bullets is that the player could 
 
 In the bullet scene, create a **Timer** child node of the root note
 
-![Screen Shot 2022-10-04 at 10.22.24 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-CreateTimerNode.png)
+![Screen Shot 2022-10-04 at 10.22.24 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletCreateTimerNode.png)
 
 Set the wait time to something appropriate, and Autostart to On.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-TimerSettings.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletTimerSettings.png)
 
 Change to the Node tab and double-click on the `timeout()` signal. 
 
@@ -160,9 +160,9 @@ Set the Receiver Method to `destroy`.
 
 Select Connect.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-TimerSignal.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletTimerSignal.png)
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bullet-TimerSignalConnect.png)
+![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/bulletTimerSignalConnect.png)
 
 Save the Bullet Scene.
 

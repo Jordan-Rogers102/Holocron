@@ -161,7 +161,7 @@ Create a new route by copying this code into `app.py.`
 def view_todo():
 	all_todo = todo.query.filter_by(userID=current_user.id).all()
     if request.method == "POST":
-        new_todo = todo(text=request.form['text'])
+        new_todo = todo(text=request.form['text'], done=False,userID=current_user.id))
         new_todo.done = False
         db.session.add(new_todo)
         db.session.commit()
@@ -239,10 +239,19 @@ def edit_note(todo_id):
 
 ---
 
+# Navbar Update
 
+Open base.html and add a new link to the TODO mini app.
+
+![todoTemplateUpdate](/WebDev/_shared/Projects/ANH/images/todoTemplateUpdate.png)
+```html
+<a class="nav-link" href="/todo">ToDo List</a>
+```
+
+![[commonBlocks#Commit & Push]]
 
 # VET Competency
 
-This task, if completed as part of the assessment, will be used as evidence for the **ICTICT210 - Operate database applications** competency.
+This task, or parts of it, can be used towards **ICTICT210 - Operate database applications** competency.
 
 [training.gov.au](https://training.gov.au/Training/Details/ICTICT210)

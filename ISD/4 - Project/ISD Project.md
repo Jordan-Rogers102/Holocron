@@ -56,6 +56,9 @@ tags:
 
 > [!danger]- Week 3
 > ![[semesterCalendarS2#School Events - Week 3]]
+ > 
+> [Assessment Assistance](_sharedContent/Assessments2024S2/Task1.md)
+>
 > **Assessment Week**
 > You will be given your assessment/topic Monday morning. The task will be due Friday 11:59pm.
 > Worth 25%.
@@ -68,7 +71,7 @@ tags:
 > #### Theory
 > N/A
 > #### Practical
-> N/A
+> - [ ] [Phase 1 Development](ISD/4%20-%20Project/_topics/Phase%201%20Development.md)
 
 > [!info]- Week 5
 > ![[semesterCalendarS2#School Events - Week 5]]
@@ -77,7 +80,7 @@ tags:
 > #### Theory
 > N/A
 > #### Practical
-> N/A
+> - [ ] [Phase 1 Development](ISD/4%20-%20Project/_topics/Phase%201%20Development.md)
 
 > [!info]- Week 6
 > ![[semesterCalendarS2#School Events - Week 6]]

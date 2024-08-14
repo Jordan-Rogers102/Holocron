@@ -23,14 +23,15 @@ Submissions are due **11:59pm Friday** each week.
 ![[semesterCalendarS2#School Events - Week 1]] 
 #### Video
 
-![https://youtu.be/BNpE9kGOL3o](https://youtu.be/BNpE9kGOL3o)
+![Welcome](https://youtu.be/BNpE9kGOL3o)
 
-![https://youtu.be/E22avFJkxR4](https://youtu.be/E22avFJkxR4)
+![Week 1](https://youtu.be/E22avFJkxR4)
+
 #### Class Tasks
 - [ ] [Clone Holocron](/_sharedContent/CloneHolocron.md)
 
 #### Theory
-- [ ] [Week 1 Presentation](WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek01)
+- [ ] [Week 1 Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek01)
 - [ ] [Flask Vs Django](/WebDev/2-Digital-Applications/_topics/FlaskVsDjango.md)
 
 #### Practical
@@ -49,7 +50,8 @@ Submit the assigned Google Doc with the following information:
 ![[semesterCalendarS2#School Events - Week 2]] 
 #### Video
 
-![https://youtu.be/UAeLuI6xGvo](https://youtu.be/UAeLuI6xGvo)
+![Week 2](https://youtu.be/UAeLuI6xGvo)
+
 #### Class Tasks
 N/A
 #### Theory
@@ -63,6 +65,12 @@ Submit the assigned Google Doc with the following information:
 
 ### Week 3 - Assessment Week
  ![[semesterCalendarS2#School Events - Week 3]]
+![Assessment 1 Overview](https://youtu.be/mkUcSVH3ZUY)
+ 
+ [Assessment Assistance](/_sharedContent/Assessments2024S2/Task1.md)
+
+
+
 **Assessment Week**  
 You will be given your assessment/topic Monday morning. The task will be due Friday 11:59pm.  
 Worth 25%.  
@@ -77,12 +85,14 @@ The task will be posted to Google Classroom, as per normal.
 
 ### Week 4
  ![[semesterCalendarS2#School Events - Week 4]]
+![Week 4 - Resume Builder](https://youtu.be/k9czbai5BGo)
+
 #### Class Tasks
 N/A
 #### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek04.md)
 #### Practical
-N/A
+- [ ] [resumeBuilder](/WebDev/_shared/Projects/ANH/resumeBuilder.md)
 
 ### Week 5
  ![[semesterCalendarS2#School Events - Week 5]]
