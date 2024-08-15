@@ -61,6 +61,8 @@ With the CollisionShape3D selected, set the Shape attribute to a Capsule.
 # Navigation Agent
 The next node to add is `NavigationAgent3D`. This is the node that will interact with the NavigationMesh created in another stage.
 
+![enemyNavAgent](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/enemyNavAgent.png)
+
 # Script
 
 Attach a new Script to the enemy node.
@@ -77,8 +79,8 @@ extends CharacterBody3D
 @onready var nav_agent = $NavigationAgent3D
 var SPEED = 3.0
 
-func update_target_location (target_locaton):
-	nav_agent.set_target_position(target_locaton)
+func update_target_location (target_location):
+	nav_agent.set_target_position(target_location)
 
 func _physics_process(delta):
 	var current_location = global_transform.origin
