@@ -56,7 +56,7 @@ tags:
 > [!info]- Week 5
 > ![[semesterCalendarS2#School Events - Week 5]]
 > #### Class Tasks
-> N/A
+> - [ ] [Server Documentation](Cyber/2%20-%20Network%20Administration%20and%20Security/Projects/BACTA/Server%20Documentation.md)
 > #### Theory
 > N/A
 > #### Practical

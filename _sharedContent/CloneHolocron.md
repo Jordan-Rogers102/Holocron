@@ -1,3 +1,5 @@
+Holocron Repository: [GitHub repository](https://github.com/Lake-Tuggeranong-College/Holocron)
+
 There are two ways to use the Holocron.
 1) View files through GitHub, and
 2) Clone & Open the folder in [Obsidian](https://obsidian.md).

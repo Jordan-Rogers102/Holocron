@@ -92,63 +92,70 @@ N/A
 #### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek04.md)
 #### Practical
-- [ ] [resumeBuilder](/WebDev/_shared/Projects/ANH/resumeBuilder.md)
+- [ ] [Resume Builder](/WebDev/_shared/Projects/ANH/resumeBuilder.md)
 
 ### Week 5
  ![[semesterCalendarS2#School Events - Week 5]]
+![https://youtu.be/FLWyW1CZVUI](https://youtu.be/FLWyW1CZVUI)
+
 #### Class Tasks
 N/A
 #### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek05.md)
 #### Practical
-N/A
+- [ ] [Resume Improvements](/WebDev/_shared/Projects/ANH/resumeImprovements.md)
+
+
 ### Week 6
  ![[semesterCalendarS2#School Events - Week 6]]
+![https://youtu.be/N5Szle-XleU](https://youtu.be/N5Szle-XleU)
+
 #### Class Tasks
 N/A
 #### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek06.md)
 #### Practical
-N/A
+- [ ] [resumeFinalTouches](/WebDev/_shared/Projects/ANH/resumeFinalTouches.md)
 ### Week 7
  ![[semesterCalendarS2#School Events - Week 7]]
 #### Class Tasks
-N/A
+- [ ] [Assessment 2 Preparation](WebDev/2-Digital-Applications/_topics/assessment2Preparation.md)
 #### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek07.md)
 #### Practical
-N/A
+- [ ] [Shopping List Part 1](/WebDev/_shared/Projects/ANH/shoppingListPart1.md)
 ### Week 8
  ![[semesterCalendarS2#School Events - Week 8]]
 #### Class Tasks
-N/A
+- [ ] [Assessment 2 Preparation](WebDev/2-Digital-Applications/_topics/assessment2Preparation.md)
 #### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek08.md)
 #### Practical
-N/A
+- [ ] [Shopping List Part 2](/WebDev/_shared/Projects/ANH/shoppingListPart2.md)
+
 ### Week 9
  ![[semesterCalendarS2#School Events - Week 9]]
 #### Class Tasks
-N/A
+- [ ] [Assessment 2 Preparation](WebDev/2-Digital-Applications/_topics/assessment2Preparation.md)
 ##### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek09.md)
 #### Practical
-N/A
+- [ ] [Shopping List Part 3](/WebDev/_shared/Projects/ANH/shoppingListPart3.md)
 
 ### Week 10
  ![[semesterCalendarS2#School Events - Week 10]]
 #### Class Tasks
-N/A
+- [ ] [Assessment 2 Preparation](WebDev/2-Digital-Applications/_topics/assessment2Preparation.md)
 #### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek10.md)
 #### Practical
-N/A
+- [ ] [Shopping List Part 4](/WebDev/_shared/Projects/ANH/shoppingListPart4.md)
 
 ## Term 4
 ### Week 11
  ![[semesterCalendarS2#School Events - Week 11]]
 #### Class Tasks
-N/A
+- [ ] [Assessment 2 Preparation](WebDev/2-Digital-Applications/_topics/assessment2Preparation.md)
 #### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek11.md)
 #### Practical
@@ -162,6 +169,7 @@ The task will be due Friday 11:59pm.
 Worth 50%.  
 The task will be posted to Google Classroom, as per normal.
 #### Class Tasks
+- [ ] [assessment2Finalisation](/WebDev/2-Digital-Applications/_topics/assessment2Finalisation.md)
  - [ ] Submit Assessment 2
 #### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek13.md)

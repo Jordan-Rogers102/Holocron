@@ -76,7 +76,7 @@ tags:
 > [!info]- Week 5
 > ![[semesterCalendarS2#School Events - Week 5]]
 > #### Class Tasks
-> N/A
+> - [ ] [Assessment Documentation](ISD/4%20-%20Project/_projects/Declan%20Battle%20Royal/Assessment%20Documentation.md)
 > #### Theory
 > N/A
 > #### Practical

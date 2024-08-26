@@ -25,27 +25,28 @@ N/A
 N/A
 
 #### School Events - Week 7
-**Tuesday** - AST Exams.
-**Wednesday** - AST Exams.
+**Tuesday** - AST Exams. Ryan offsite.
+**Wednesday** - AST Exams. Ryan offsite.
 
 #### School Events - Week 8
-**Tuesday** - Ryan is out of school.
-**Wednesday** - Ryan is out of school.
-**Thursday** - Ryan is out of school & Cross Line Exams.
-**Friday** - Cross Line Exams.
+**Tuesday** - Ryan offsite.
+**Wednesday** - Ryan offsite.
+**Thursday** - Ryan offsite. & Cross Line Exams. No Classes.
+**Friday** - Cross Line Exams. No Classes.
 
 #### School Events - Week 9
 **Monday** - Q4 Commences.
 
 #### School Events - Week 10
 
-**Wednesday** - Breakout Week.
-**Thursday** - Breakout Week.
-**Friday** - Breakout Week.
+**Wednesday** - Breakout Week. Ryan offsite.
+**Thursday** - Breakout Week. Ryan offsite.
+**Friday** - Breakout Week. Ryan offsite.
 
 #### School Events - Week 11
 **Monday** - Student Free Day.
 **Tuesday** - First Day of Classes.
+**Wednesday** - Parent Teacher Interviews
 
 #### School Events - Week 12
 N/A
@@ -68,6 +69,7 @@ Last Week of Classes
 **Friday** - Q4/S2 Ends.
 
 #### School Events - Week 17
+No Classes.
 **Monday** - Year 11 AST Trial.
 **Tuesday** - Feedback Day.
 **Thursday** - Unit Scores Published on BSSS.
@@ -75,10 +77,10 @@ Last Week of Classes
 **Friday** - Course Scores Published on BSSS.
 
 #### School Events - Week 18
-N/A
+No Classes.
 
 #### School Events - Week 19
-N/A
+No Classes.
 
 #### School Events - Week 20
-N/A
+No Classes.

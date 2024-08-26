@@ -33,9 +33,7 @@ tags:
 > - [ ] [Project Context](ISD/2%20-%20Digital%20Applications/_topics/tutorials/Project%20Context.md)
 > #### Practical
 > - [ ] [Accept FPS Assignment](ISD/2%20-%20Digital%20Applications/_topics/tutorials/Accept%20FPS%20Assignment.md)
-
 > - [ ] Open Game in Godot 4.2.2
-
 > - [ ] [Building The Environment](ISD/2%20-%20Digital%20Applications/_topics/tutorials/Building%20The%20Environment.md)
 > - [ ] [Reusable Assets](ISD/2%20-%20Digital%20Applications/_topics/tutorials/Reusable%20Assets.md)
 
@@ -74,7 +72,7 @@ tags:
 > [!info]- Week 5
 > ![[semesterCalendarS2#School Events - Week 5]]
 > #### Class Tasks
-> N/A
+> - [ ] [Assessment Documentation](ISD/2%20-%20Digital%20Applications/_topics/theory/Assessment%20Documentation.md)
 > #### Theory
 > N/A
 > #### Practical
