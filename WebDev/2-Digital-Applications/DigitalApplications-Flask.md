@@ -118,12 +118,24 @@ N/A
 - [ ] [resumeFinalTouches](/WebDev/_shared/Projects/ANH/resumeFinalTouches.md)
 ### Week 7
  ![[semesterCalendarS2#School Events - Week 7]]
+#### Videos
+![https://youtu.be/Uv18cXzvRL0](https://youtu.be/Uv18cXzvRL0)
+
+
+![https://youtu.be/SUDKg1AnQ50](https://youtu.be/SUDKg1AnQ50)
+
+![https://youtu.be/aOz_nH_RWTo](https://youtu.be/aOz_nH_RWTo)
+
+
+
+
 #### Class Tasks
 - [ ] [Assessment 2 Preparation](WebDev/2-Digital-Applications/_topics/assessment2Preparation.md)
 #### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek07.md)
 #### Practical
 - [ ] [Shopping List Part 1](/WebDev/_shared/Projects/ANH/shoppingListPart1.md)
+
 ### Week 8
  ![[semesterCalendarS2#School Events - Week 8]]
 #### Class Tasks

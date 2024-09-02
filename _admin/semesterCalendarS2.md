@@ -36,6 +36,7 @@ N/A
 
 #### School Events - Week 9
 **Monday** - Q4 Commences.
+**Wednesday** - Ryan offsite.
 
 #### School Events - Week 10
 
