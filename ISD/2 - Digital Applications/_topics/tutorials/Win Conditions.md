@@ -44,7 +44,7 @@ Currently, each enemy instance has been assigned to the `enemy` group.
 To check if there are nodes in group "enemy" above 0 in Godot 4, you can use the following code:
 
 ```gdscript
-if get_node_count("enemy") > 0:
+if get_tree().get_nodes_in_group("enemy").size() > 0:
     # There is at least one node in the "enemy" group
 else:
     # There are no nodes in the "enemy" group
@@ -63,9 +63,9 @@ Here's an example of how you could use this code in a game:
 
 ```gdscript
 func _process(delta):
-    if get_node_count("enemy") == 0:
-        # All enemies have been defeated, so proceed to the next level
-        get_tree().change_scene("next_level")
+	if get_tree().get_nodes_in_group("enemy").size() == 0:
+		# All enemies have been defeated, so proceed to the next level
+		get_tree().change_scene("next_level")
 ```
 
 In this example, the `_process` function checks every frame if there are any nodes in the "enemy" group. If there are no nodes in the group, it means all enemies have been defeated and the game can proceed to the next level.

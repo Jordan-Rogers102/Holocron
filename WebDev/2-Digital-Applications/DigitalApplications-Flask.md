@@ -149,6 +149,7 @@ N/A
  ![[semesterCalendarS2#School Events - Week 9]]
 #### Class Tasks
 - [ ] [Assessment 2 Preparation](WebDev/2-Digital-Applications/_topics/assessment2Preparation.md)
+- [ ] [Personas](/WebDev/_shared/Projects/ANH/personas.md)
 ##### Theory
 - [ ] [Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek09.md)
 #### Practical
