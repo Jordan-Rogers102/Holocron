@@ -1,8 +1,6 @@
 ---
-author: Ryan Cather
-date: 2024-06-09
-priority: 1
-order: 1
+versionTested:
+  - 4.2.2
 ---
 
 > [!info] In this tutorial, you will learn how to develop a simple 3D environment. This will be the basis of your FPS.

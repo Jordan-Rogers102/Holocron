@@ -100,8 +100,10 @@ tags:
 > [!info]- Week 8
 > ![[semesterCalendarS2#School Events - Week 8]]
 > #### Class Tasks
-> N/A
-> #### Theory
+> [Assessment Documentation](obsidian://open?vault=Holocron&file=ISD%2F2%20-%20Digital%20Applications%2F2024S2%2FAssessment%202%20-%202024S2)
+> Development Process scaffold has been added. With the scaffold it should be very easy to write out this section to be up to date this week.
+> Development Process should be fully written by end of week 9 so start now and get ahead
+> #### Theory 
 > N/A
 > #### Practical
 > - [ ] [Win Conditions](ISD/2%20-%20Digital%20Applications/_topics/tutorials/Win%20Conditions.md)

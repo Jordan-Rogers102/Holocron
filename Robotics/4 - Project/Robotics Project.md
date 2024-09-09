@@ -69,16 +69,21 @@ tags:
 > [!info]- Week 7
 > ![[semesterCalendarS2#School Events - Week 7]]
 > #### Class Tasks
-> N/A
+> -  [ ] [Assessment 2 - 2024S2](Robotics/4%20-%20Project/2024S2/Assessment%202%20-%202024S2.md)
 > #### Theory
 > N/A
 > #### Practical
 > N/A
 
-> [!info]- Week 8
+> [!important]- Week 8
 > ![[semesterCalendarS2#School Events - Week 8]]
 > #### Class Tasks
-> N/A
+> [Assessment Documentation](obsidian://open?vault=Holocron&file=Robotics%2F4%20-%20Project%2F2024S2%2FAssessment%202%20-%202024S2)
+>Development Process scaffold has been added. With the scaffold it should be very easy to write out this section to be up to date this week.
+>Development Process should be fully written by end of week 9 so start now and get ahead<br>
+>[VET Competency](https://classroom.google.com/u/2/c/NjQ5OTU4MzU4NjY5/a/NzExMjY0MDk4MTUw/details)
+>This week your documentation task is to complete the first section of this VET Competency. Gather evidence from either the project, communication with the client (Ryan), or from the Job Board and collate it in the correct space.
+>Section 1 should be completed by end of week 8
 > #### Theory
 > N/A
 > #### Practical

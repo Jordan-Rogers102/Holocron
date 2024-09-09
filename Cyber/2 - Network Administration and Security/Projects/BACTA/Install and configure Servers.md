@@ -35,16 +35,17 @@ The Raspberry Pi can connect to the SchoolsNet to access the internet via Ethern
 
 As the servers need to interact, a naming policy will be created.
 
+`ip a`
 
-| Server            | Name         |
-| ----------------- | ------------ |
-| Web               | httpServer   |
-| Database          | dbServer     |
-| File              | fileServer   |
-| DNS               | dnsServer    |
-| Email             | emailServer  |
-| DHCP              | dhcpServer   |
-| Domain Controller | domainServer |
+| Server            | Name         | IP          |
+| ----------------- | ------------ | ----------- |
+| Web               | httpServer   | 192.168.1.8 |
+| Database          | dbServer     | 192.168.1.6 |
+| File              | fileServer   | 192.168.1.7 |
+| DNS               | dnsServer    | 192.168.1.4 |
+| Email             | emailServer  | 192.168.1.  |
+| DHCP              | dhcpServer   | 192.168.1.x |
+| Domain Controller | domainServer | 192.168.1.9 |
 
 You will need to rename the computer name for the Raspberry Pi to the assigned name.
 

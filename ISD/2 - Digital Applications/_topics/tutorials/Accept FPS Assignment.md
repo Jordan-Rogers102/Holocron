@@ -1,3 +1,8 @@
+---
+versionTested:
+  - 4.2.2
+  - "4.3"
+---
 
 > [!tip] Sign into GitHub in the browser, before proceeding.
 

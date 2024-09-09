@@ -161,7 +161,7 @@ Create a new route by copying this code into `app.py.`
 def view_todo():
 	all_todo = todo.query.filter_by(userID=current_user.id).all()
     if request.method == "POST":
-        new_todo = todo(text=request.form['text'], done=False,userID=current_user.id))
+        new_todo = todo(text=request.form['text'], done=False,userID=current_user.id)
         new_todo.done = False
         db.session.add(new_todo)
         db.session.commit()
