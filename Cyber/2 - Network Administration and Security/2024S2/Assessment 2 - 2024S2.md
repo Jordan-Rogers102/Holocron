@@ -1,5 +1,11 @@
-
 > [!important] View the assessment on Google Classroom for specific details.
+
+# Technical Report
+
+For suggestions on how to structure your report, see this page:
+
+[Technical Report Writing](_sharedContent/technicalReportWriting.md)
+
 
 # Assessable Topics 
 
@@ -7,26 +13,21 @@ These are the details you are to cover in the topics in Assessment 2. More Speci
 
 ![assessment2Topics](Cyber/2%20-%20Network%20Administration%20and%20Security/2024S2/_images/assessment2Topics.png)
 
-## Project Overview
 
-TBA
+![[_sharedContent/Assessments2024S2/Task 2#Project Overview|Task 2]]
 
-## Code
+![[_sharedContent/Assessments2024S2/Task 2#Code|Task 2]]
 
-TBA
+![[_sharedContent/Assessments2024S2/Task 2#Data|Task 2]]
 
-## Data
+![[_sharedContent/Assessments2024S2/Task 2#Development Process|Task 2]]
 
-TBA
+**Example**
 
-## Development Process
 
-TBA
 
-## Technical Analysis
+![[_sharedContent/Assessments2024S2/Task 2#Technical Analysis|Task 2]]
 
-TBA
 
-## Work Skills
 
-TBA
+![[_sharedContent/Assessments2024S2/Task 2#Work Skills|Task 2]]

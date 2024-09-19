@@ -1,30 +1,22 @@
 
-# Structure of Technical Report
+# Tips
 
-The Analysis is to be written as a technical report and should be structured as such.
+- Describe the technical specifications of the servers and the software to be installed.
+- Explain the step-by-step process of server installation, including any software prerequisites or dependencies.
+- Detail the configuration settings for each server, including network, operating system, and application settings.
+- Document any troubleshooting or optimisations performed during the installation and configuration process.
+- Use clear and concise language, avoiding technical jargon whenever possible.
+- Include detailed descriptions, screenshots, or diagrams to illustrate the installation and configuration process.
+- Ensure your findings are supported by evidence and be objective in your analysis.
+- Proofread carefully for accuracy and consistency.
+- Seek feedback from peers or a reviewer to improve clarity and objectivity.
 
-Here are some resources to assist you.
-
-At a minimum, your document should have the following sections:
-
-- Title page
-- Table of Contents
-- Introduction
-- Summary
-- Body
-    
-    <aside>
-    ‼️ This section can be split into different sections depending on the purpose of the report.
-    
-    </aside>
-    
-- Conclusion
 
 [Technical report writing](https://students.unimelb.edu.au/academic-skills/explore-our-resources/report-writing/technical-report-writing)
 
 [How to Write Technical Report](https://medium.com/technical-writing-is-easy/how-to-write-technical-report-e935210002c9)
 
-[https://www.youtube.com/watch?v=QJ3bZeF1AKg](https://www.youtube.com/watch?v=QJ3bZeF1AKg)
+![https://www.youtube.com/watch?v=QJ3bZeF1AKg](https://www.youtube.com/watch?v=QJ3bZeF1AKg)
 
 # Diagrams
 
@@ -34,20 +26,19 @@ For the assessment task, you are required to include Use Case Diagrams to explai
 
 ## Use Case Diagrams
 
-> The purpose of a use case diagram in UML is to demonstrate the different ways that a user might interact with a system.
-[https://www.lucidchart.com/pages/uml-use-case-diagram](https://www.lucidchart.com/pages/uml-use-case-diagram)
+> [!tip] The purpose of a use case diagram in UML is to demonstrate the different ways that a user might interact with a system.
+> [https://www.lucidchart.com/pages/uml-use-case-diagram](https://www.lucidchart.com/pages/uml-use-case-diagram)
+
+> [!tip] Use case diagrams are used to gather the requirements of a system including internal and external influences.
+> [https://www.tutorialspoint.com/uml/uml_use_case_diagram.htm](https://www.tutorialspoint.com/uml/uml_use_case_diagram.htm)
 > 
 
-> Use case diagrams are used to gather the requirements of a system including internal and external influences.
-[https://www.tutorialspoint.com/uml/uml_use_case_diagram.htm](https://www.tutorialspoint.com/uml/uml_use_case_diagram.htm)
-> 
-
-> “…the purposes of use case diagrams can be said to be as follows −
+“…the purposes of use case diagrams can be said to be as follows −
 - Used to gather the requirements of a system.
 - Used to get an outside view of a system.
 - Identify the external and internal factors influencing the system.
-- Show the interaction among the requirements are actors.”
-> 
+- Show the interaction among the requirements are actors.
+
 
 ### Examples
 

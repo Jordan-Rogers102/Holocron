@@ -1,41 +1,51 @@
 
 > [!important] View the assessment on Google Classroom for specific details.
 
+# Technical Report
+
+For suggestions on how to structure your report, see this page:
+
+[Technical Report Writing](_sharedContent/technicalReportWriting.md)
+
 # Assessable Topics 
 
 These are the details you are to cover in the topics in Assessment 2. More Specific Details will be added later in the document.
 
 ![assessment2Topics](ISD/2%20-%20Digital%20Applications/2024S2/_images/assessment2Topics.png)
 
-## Project Overview
+![[_sharedContent/Assessments2024S2/Task 2#Project Overview|Task 2]]
 
-TBA
+![[_sharedContent/Assessments2024S2/Task 2#Code|Task 2]]
 
-## Code
+![[_sharedContent/Assessments2024S2/Task 2#Data|Task 2]]
 
-TBA
+![[_sharedContent/Assessments2024S2/Task 2#Development Process|Task 2]]
 
-## Data
+Example: 
 
-TBA
+For the project there are 3 main components that needed to be created from a development standpoint. Those 3 components were the Environments, Player, and Enemies. While other components were required the remaining components were for the most part a result of developing the 3 main components.
 
-## Development Process
+To create these components a simple development loop was used where a feature of the component was created and tested in a safe environment. Once all components were completed and tested to the current stage of the project then work would begin on the next component or next addition to the project. The process of creating and testing begins with the identification or MVP requirements. There was a focus on keeping this identification minimalistic both to save time and to provide as blank a canvas to test as possible. In this way the functionality of the game was paramount and this development process would ensure that the functionality of the game was basic enough to run to completion and anything added for the purposes of flavour and gameplay complexity would not have an effect on the functionality of the game. Effectively with the creation of a safe-enclosed environment all the features of the game could be tested before the process of designing an interesting and fun levels began.
 
-- Brief 2-4 sentence summary for each week of what that week of development involved
-	- What did you add to the project?
-	- How does your addition fit into the grand scheme of the project?
-	- What new skills were required to make these additions?
-	- Explain how previous learning and work contributed to your ability to complete this week or work.
-<strong>Screenshots as evidence is always good</strong>
-Remember this entire section is meant to amount to around 1000 words so if you have 10 weeks worth of development process those summaries either need to be combined or need to be ~100 words each.
-This weekly summary may not work depending on your project. It may be worthwhile to use this scaffold to put into words what was done to complete the project. However you may want to reorder or combine sections depending on how it will be best displayed. 
+As an example of this development process, after a texture-less grey box was created to serve as a mechanic testing ground the creation of the player-model and the implementation of their movement, collision, and shooting began. For the player-model the basic MVP requirements were identified as:
+- Being able to move, sprint, and jump around the environment.
+- Being able to shoot.
+- Having some collision with the environment in order to prevent falling through the walls and floors.
+ A player was created as a formless, texture-less, capsule-shape and given a `CollisionShape3d` for the purposes of movement and detection. A `Camera3D` was attached to the player model at the appropriate height through which the player will view the game and a `RayCast3D` was attached project forward both for detecting objects immediately in front of the player.
+Movement was added to the `player.gd` script to allow for movement by defining speed and then adding variables that track input direction based on player inputs and then change the `velocity` of the player-model to the current speed in the direction that was input. This was tested in the environment along with a togglable speed increase to add a sprint functionality, a jump function that prevented continual escalation by checking if the player-model is on the floor. This all interacted with a statement that added gravity to the player-model to ensure they stay on the ground.
+This formed the basis for the player-model and interactions with the environment. Raycasting was tested against the walls using a `print()` function to show when the walls and floors were in the raycast. A bullet model was created and a spawn point was created for the bullets to come out of the players camera along the raycast and similarly a `print()` function was used to test when the bullets collide with walls and floors.
 
-Example (written for week 7 of the development process):
-During the 7th week of the development process I was at the stage where the game would function with players able to shoot and eliminate enemy NPCs. The plan for this week was to implement a functionality that would keep track of how many enemy NPCs were left in the level. This would act as a win condition that I would add functionality to during the 8th week of the development process. To keep track of the number of enemy NPCs I needed to create `global.gd` which is where I would store the variables for tracking the number of enemy NPCs. I added the enemy scene to the group `enemy` and utilised the code `get_tree().get_nodes_in_group("enemy").size()` as a way to track the number of enemies remaining and assigned this number to the variable `current_score`. I displayed this number to the player by adding `$Camera3D/playerScore.text = str()` to the physics function in the player script and had the function that caused enemies to die to reduce the variable `current_score`. With all of this working I can use the `current_score` variable as a way to trigger win conditions so that the game knows when all of the enemies have been eliminated and therefore knows when to progress to the next level.
-## Technical Analysis
+All of these features were tested in the safe environment that was created. Some slopes were added to the environment to test movement along an incline as an additional test that was not identified during the MVP identification process. With this complete the project could continue knowing that the player would be able to move around the environment without falling through anything and that the bullets were being detected when colliding with objects (which would become relevant when implementing enemies).
 
-TBA
+Once all of the 3 main components were completely implemented and tested the game within the safe environment the game was ready to be iterated upon to introduce flavour and complete game design. First the levels were made more interesting with environments that better reflected the gameplay. With small maze-like structures to encourage a slow methodical progression and then some long catwalks to encourage a full on, fast-paced section. Textures were imported using seamless png images and applied to the environment. Royalty free enemy models were sourced from online and used to better represent the enemies.
 
-## Work Skills
+Given that the primary functions of the game had been completely tested before the implementation of complex design there was an expectation that these kinds of issues may come up. Small changes to hit boxes of enemies were needed to better fit the new textures. Furthermore there were some locations in the levels that could be considered bugs. Where these were found small fixes were made in the environment design mostly by adding additional `CollisionShapes3D` that prevented access to those areas. There is an argument here for a more lateral development process that prioritises the game being designed and developed simultaneously where the functionality and flavour are tested together. This kind of process may be able to prevent the kinds of bugs that occurred when development and design occurred independently but in a solo project with a strict time constraint it is more efficient to hone in on the basic MVPs of the functionality rather than developing the functionality based on how it fits into the design.
 
-TBA
+When refining the game ready for submission there was an option to use Blender in order to create assets for the various in game models. The final product of the game has an almost discordant feeling due to the importation of assets that were created independently from one another. Creating assets from scratch or independently would have been an ideal solution to this issue. However time crunches and adherence to the strict MVPs of the project rendered this strategy inefficient and would have reduced the ability for the project to function as intended on the day of submission.  Furthermore animation was another 
+
+
+![[_sharedContent/Assessments2024S2/Task 2#Technical Analysis|Task 2]]
+
+
+
+![[_sharedContent/Assessments2024S2/Task 2#Work Skills|Task 2]]

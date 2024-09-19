@@ -42,7 +42,7 @@ N/A
 
 **Wednesday** - Breakout Week. Ryan offsite.
 **Thursday** - Breakout Week. Ryan offsite.
-**Friday** - Normal School Day. Ryan offsite (pending)
+**Friday** - Normal School Day. 
 
 #### School Events - Week 11
 **Monday** - Student Free Day.
@@ -78,7 +78,8 @@ No Classes.
 **Friday** - Course Scores Published on BSSS.
 
 #### School Events - Week 18
-No Classes.
+**Thursday** - Year 11 TRaC Three-way Interviews
+**Friday** - Year 11 TRaC Three-way Interviews
 
 #### School Events - Week 19
 No Classes.

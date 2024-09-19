@@ -1,40 +1,30 @@
 
 > [!important] View the assessment on Google Classroom for specific details.
 
+# Technical Report
+
+For suggestions on how to structure your report, see this page:
+
+[Technical Report Writing](_sharedContent/technicalReportWriting.md)
+
 # Assessable Topics 
 
 These are the details you are to cover in the topics in Assessment 2. More Specific Details will be added later in the document.
 
 ![assessment2Topics](Robotics/4%20-%20Project/2024S2/_images/assessment2Topics.png)
 
-## Project Overview
+![[_sharedContent/Assessments2024S2/Task 2#Project Overview|Task 2]]
 
-TBA
+![[_sharedContent/Assessments2024S2/Task 2#Code|Task 2]]
 
-## Code
+![[_sharedContent/Assessments2024S2/Task 2#Data|Task 2]]
 
-TBA
+![[_sharedContent/Assessments2024S2/Task 2#Development Process|Task 2]]
 
-## Data
 
-TBA
 
-## Development Process
+![[_sharedContent/Assessments2024S2/Task 2#Technical Analysis|Task 2]]
 
-- Brief 2-4 sentence summary for each week of what that week of development involved
-	- What did you add to the project?
-	- How does your addition fit into the grand scheme of the project?
-	- What new skills were required to make these additions?
-	- What methods were used to ensure effective collaboration on this project?
-	- Explain how previous learning and work contributed to your ability to complete this week or work.
-<strong>Screenshots as evidence is always good</strong>
-Remember this entire section is meant to amount to around 1000 words so if you have 10 weeks worth of development process those summaries either need to be combined or need to be ~100 words each.
-This weekly summary may not work depending on your project. It may be worthwhile to use this scaffold to put into words what was done to complete the project. However you may want to reorder or combine sections depending on how it will be best displayed. 
 
-## Technical Analysis
 
-TBA
-
-## Work Skills
-
-TBA
+![[_sharedContent/Assessments2024S2/Task 2#Work Skills|Task 2]]

@@ -141,7 +141,7 @@ Create a new `route` in `app.py` for `shoppingLists`
 
 Remember when creating a new route we want to:
 - Tell the route what `methods` the page can use (`GET` and `POST`)
-- Define the route with a name like `view_shoppingLists`
+- Define the route with a name like `shoppingLists`
 - Query the database and retrieves the records in the `shopping_lists` table which match the current users `userid`. The route will store these results in a variable you could name `all_shopping_lists`
 - We need an if statement that will determine whether the route is GETting or POSTing
 	- If it's POSTing the route needs to:

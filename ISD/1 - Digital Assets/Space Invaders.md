@@ -190,9 +190,11 @@ The Unit Outline can be found on Google Classroom.
 
 ## Assessments
 
-This unit has a number of assessments, the details can be found in the unit outline.
+This unit has several assessments, the details can be found in the unit outline.
 
 The details for each assessment can be found on Google Classroom, as they are published.
+
+[[ISD/2 - Digital Applications/2024S2/Assessment 2 - 2024S2|Assessment 2 - 2024S2]]
 
 ## Contact Details
 
