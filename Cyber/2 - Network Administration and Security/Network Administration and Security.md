@@ -117,15 +117,25 @@ tags:
 > [!info]- Week 11
 > ![[semesterCalendarS2#School Events - Week 11]]
 > #### Class Tasks
-> - [ ] Finalise Project
-> - [ ] [Assessment 2 - 2024S2](Cyber/2%20-%20Network%20Administration%20and%20Security/2024S2/Assessment%202%20-%202024S2.md)
+> -  [[Bash Scripting]]
+> -  [Assessment 2 - 2024S2](Cyber/2%20-%20Network%20Administration%20and%20Security/2024S2/Assessment%202%20-%202024S2.md)
 > #### Theory
 > N/A
 > #### Practical
 > N/A
 
-> [!danger]- Week 12
+> [!info]- Week 12
 > ![[semesterCalendarS2#School Events - Week 12]]
+> 
+> #### Class Tasks
+> - [ ] [[Cyber/2 - Network Administration and Security/2024S2/Assessment 2 - 2024S2|Assessment 2 - 2024S2]]
+> #### Theory
+> N/A
+> #### Practical
+> N/A
+
+> [!danger]- Week 13
+> ![[semesterCalendarS2#School Events - Week 13]]
 > 
 > - [ ] Finalise Project
 > - [ ] [Assessment 2 - 2024S2](Cyber/2%20-%20Network%20Administration%20and%20Security/2024S2/Assessment%202%20-%202024S2.md)
@@ -135,15 +145,6 @@ tags:
 > Worth 50%.
 > The task will be posted to Google Classroom, as per normal.
 
-> [!info]- Week 13
-> ![[semesterCalendarS2#School Events - Week 13]]
-> 
-> #### Class Tasks
-> - [ ] Vet Competencies
-> #### Theory
-> N/A
-> #### Practical
-> N/A
 
 > [!info]- Week 14
 > ![[semesterCalendarS2#School Events - Week 14]]
@@ -184,7 +185,7 @@ tags:
 | ---------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Google Classroom | Assessment 1 - 25 %                                                                                                  |
 |                  | [Assessment 2](Cyber/2%20-%20Network%20Administration%20and%20Security/2024S2/Assessment%202%20-%202024S2.md) - 50 % |
-|                  | Assessment 3 - 25 %                                                                                                  |
+|                  | [[Cyber/2 - Network Administration and Security/2024S2/Assessment 3\|Assessment 3]] - 25 %                           |
 |                  |                                                                                                                      |
 
 # Contact Details

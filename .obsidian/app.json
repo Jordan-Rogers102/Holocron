@@ -9,6 +9,6 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "useMarkdownLinks": true,
-  "newLinkFormat": "absolute"
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest"
 }

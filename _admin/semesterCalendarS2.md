@@ -64,9 +64,10 @@ N/A
 #### School Events - Week 16
 Last Week of Classes
 
+**Tuesday** - Cross Line Exams
 **Wednesday** - Cross Line Exams.
 **Thursday** - Cross Line Exams.
-**Friday** - Cross Line Exams.
+**Friday** - Year 11 AST Trial.
 **Friday** - Q4/S2 Ends.
 
 #### School Events - Week 17

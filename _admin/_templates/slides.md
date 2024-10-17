@@ -1,10 +1,23 @@
+---
+theme: simple
+highlightTheme: zenburn
+css: css/holocronSlides.css
+---
 
-# Welcome to Week TODO
 
 
+# Welcome 
+
+
+Content
 
 ---
+
 # Slide 2
+
+--
+
+# Slide 2.1
 
 
 ---

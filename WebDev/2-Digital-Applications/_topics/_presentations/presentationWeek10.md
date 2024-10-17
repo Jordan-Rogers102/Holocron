@@ -5,9 +5,35 @@ Goals for this week:
 - [ ] Complete VET Competency
 
 ---
+
+# Coding from last week
+
+## Templates
+
+![SLweek10ex1](/WebDev/_shared/Projects/ANH/images/SLweek10ex1.png)
+
+## app.py
+
+![SLweek10ex2](/WebDev/_shared/Projects/ANH/images/SLweek10ex2.png)
+
+
+## Ticking off items
+
+### Template changes
+
+![SLweek10ex3](/WebDev/_shared/Projects/ANH/images/SLweek10ex3.png)
+
+### app.py changes
+
+![SLweek10ex4](/WebDev/_shared/Projects/ANH/images/SLweek10ex4.png)
+
+
+***There will be a video going over the correct implementation of these bits of code as we have had some people have some trouble with the previous weeks coding. That video will come on Wednesday***
+
+---
 # Assessment Documentation
 
-[Assessment 2 Information](WebDev/2-Digital-Applications/2024S2/assessment2-2024S2.md)
+[Assessment 2 Information](/WebDev/2-Digital-Applications/2024S2/assessment2-2024S2.md)
 - This document has been fully updated to include scaffolds for each section of the assessment. It should serve as a guide to make writing your assessment easy and carefree.
 - Still start as early as you can (it should have been started already)
 - There are only 3 weeks left (not including school holidays) until assessments are due. Ensure you are on track to hand in. A good point to be is that at the end of this week 2 of the sections have been completely written.

@@ -154,23 +154,23 @@ tags:
 > #### Practical
 > - [ ] Finalise project
 
-> [!danger]- Week 12
+> [!info]- Week 12
 > ![[semesterCalendarS2#School Events - Week 12]]
+> 
+> #### Class Tasks
+> -[ ] [[ISD/2 - Digital Applications/2024S2/Assessment 2 - 2024S2|Assessment 2 - 2024S2]]
+> #### Theory
+> N/A
+> #### Practical
+> N/A
+
+> [!danger]- Week 13
+> ![[semesterCalendarS2#School Events - Week 13]]
 > - [ ] [Assessment 2 - 2024S2](ISD/2%20-%20Digital%20Applications/2024S2/Assessment%202%20-%202024S2.md)
 > **Assessment Due**
 > The task will be due Friday 11:59pm.
 > Worth 50%.
 > The task will be posted to Google Classroom, as per normal.
-
-> [!info]- Week 13
-> ![[semesterCalendarS2#School Events - Week 13]]
-> 
-> #### Class Tasks
-> - [ ] [VET](_sharedContent/VET.md)
-> #### Theory
-> N/A
-> #### Practical
-> N/A
 
 > [!info]- Week 14
 > ![[semesterCalendarS2#School Events - Week 14]]
@@ -206,14 +206,13 @@ tags:
 
 
 
-
 # Subject Information
 
 | Unit Outline     | Assessments                                                                                     |
 | ---------------- | ----------------------------------------------------------------------------------------------- |
 | Google Classroom | Assessment 1 - 25 %                                                                             |
 |                  | [Assessment 2](ISD/2%20-%20Digital%20Applications/2024S2/Assessment%202%20-%202024S2.md) - 50 % |
-|                  | Assessment 3 - 25 %                                                                             |
+|                  | [[ISD/2 - Digital Applications/2024S2/Assessment 3\|Assessment 3]] - 25 %                       |
 
 ![[commonBlocks#Contact Details]]
 

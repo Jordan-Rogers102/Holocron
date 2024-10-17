@@ -129,3 +129,81 @@ After the script updates the OS to the latest version, then write commands to in
 
 Finally, run the script on a fresh install of the Raspberry Pi operating system. Note any errors, fix the script, run it again.
 
+# Configuration Script
+
+The script developed in class, current is:
+
+```bash
+#!/bin/bash
+
+userResponse = ""
+
+echo "This script will update the OS to the latest version, install NTP and set the timezone to Australia/Canberra"
+echo "It will also install Apache2, MySQL and PHP"
+echo "Please ensure you have an active internet connection before running this script"
+
+while [[ "$userResponse" != "y" && "$userResponse" != "n" ]]; do
+read -p "Are you sure you want to continue? (y/n)" userResponse
+userResponse = ${userResponse,,} # tolower
+done
+
+if [ "$userResponse" == "n" ]; then
+    echo "Exiting script"
+    exit 1
+elif  ["$userResponse" == "y" ]; then
+
+echo "Host Name: $(hostname)"
+echo "OS Version: $(cat /etc/issue)"
+echo "Uptime: $(uptime -p)"
+
+sudo apt update
+
+sudo apt install ntpdate -y
+echo "Setting Australia/Canberra timezone"
+cp /usr/share/zoneinfo/Australia/Canberra /etc/localtime
+
+# Defining colours
+# from : https://unix.stackexchange.com/questions/92563/friendly-terminal-color-names-in-shell-scripts
+
+red='\e[1;31m%s\e[0m\n'
+green='\e[1;32m%s\e[0m\n'
+yellow='\e[1;33m%s\e[0m\n'
+blue='\e[1;34m%s\e[0m\n'
+magenta='\e[1;35m%s\e[0m\n'
+cyan='\e[1;36m%s\e[0m\n'
+
+system=`arch`
+if [ $system = "i686" ]; then
+    # echo "Rasperry Pi 32-bit detected, on Desktop"
+    printf "$magenta" "Raspbian on PC/Mac"
+elif [ $system = "aarch64" ]; then
+
+    # echo "Rasperry Pi OS 64 Bit"
+    printf "$green"   "Raspbian on Raspberry Pi 64bit"
+
+    echo "Syncing time with NTP server"
+    sudo ntpdate 203.62.5.5
+else
+    # echo "Rasperry Pi OS 32 Bit"
+    printf "$blue"   "Raspbian on Raspberry Pi 32bit"
+
+    echo "Syncing time with NTP server"
+    sudo ntpdate 203.62.5.5
+fi
+
+   sudo apt dist-upgrade -y
+
+# Option 1: Install Apache2, MySQL and PHP together
+sudo apt install apache2 mysql-server -y
+
+# Option 2: Install Apache2, MySQL and PHP individually
+# sudo apt install apache2 -y
+# sudo apt install mysql-server -y
+# sudo apt install apache3 -y
+
+sudo apt autoremove -y # Remove unnecessary packages
+sudo apt clean # Clean up the package cache
+
+fi
+```
+

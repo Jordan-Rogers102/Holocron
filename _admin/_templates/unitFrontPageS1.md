@@ -59,7 +59,7 @@
 > # Practical
 > N/A
 
-> [!important]- Week 7
+> [!info]- Week 7
 > ![[semesterCalendarS1#School Events - Week 7]]
 > # Class Tasks
 > N/A

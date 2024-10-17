@@ -16,4 +16,5 @@ Commit and Push to Github. Create a Pull Request once ready to merge.
 
 | ${\color{black} \fcolorbox{chocolate}{chocolate} {Ryan Cather}}$ | Email                     | Discord                    |
 | ---------------------------------------------------------------- | ------------------------- | -------------------------- |
-| ![Avatar](ryanAvatar.png)                                        | ryan.cather@ed.act.edu.au | https://discord.gg/R9a6msU |
+| ![[ryanAvatar.png]]                                              | ryan.cather@ed.act.edu.au | https://discord.gg/R9a6msU |
+

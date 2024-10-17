@@ -31,7 +31,7 @@ Analyse the code, and explain how that code operates and the purpose of each blo
 
 > [!tip] You **don't** need to explain every single line of code.
 
-Pick a complex route and analyse that to demonstrate an understanding of the whole script.
+For complex code sections, pick a couple of key complex routes/functions and analyse them to demonstrate an understanding of the whole script.
 
 
 ## Data

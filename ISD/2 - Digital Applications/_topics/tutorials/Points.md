@@ -68,8 +68,8 @@ Then it deletes the pickup item.
 
 ```gdscript
 if (body.name == "Player"):
-		Global.current_score += 10
-		queue_free()
+	Global.current_score += 10
+	queue_free()
 ```
 
 Save the Scene.

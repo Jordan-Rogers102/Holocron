@@ -8,7 +8,7 @@
 **The Government backs VET:** It helps Australia get the skilled workers it needs, like training a strong team! 🇦🇺
 
 - **Lots of choices:** VET courses come in all areas, from childcare to computers and even construction! ️
-- **Nationally recognized:** Your VET qualification is like a respected badge that anyone in Australia understands.
+- **Nationally recognised:** Your VET qualification is like a respected badge that anyone in Australia understands.
 
 **South Canberra Schools VET:** We offer these courses, and you can earn certificates that prove your skills!
 
@@ -21,7 +21,7 @@
 
 # Qualification Levels
 
-The Qualification structure starts at Certificate I and goes up to Doctorate level qualifcations.
+The Qualification structure starts at Certificate I and goes up to Doctorate level qualifications.
 
 ![vetAQFLevels](/_sharedContent/_images/vetAQFLevels.webp)
 

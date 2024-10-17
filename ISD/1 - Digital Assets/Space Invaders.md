@@ -64,7 +64,7 @@ tags:
 > # Practical
 > N/A
 
-> [!important]- Week 7
+> [!info]- Week 7
 > ![[semesterCalendarS1#School Events - Week 7]]
 > # Class Tasks
 > N/A
@@ -148,7 +148,7 @@ tags:
 
 > [!info]- Week 16
 > ![[semesterCalendarS1#School Events - Week 16]]
-> # Class **Tasks**
+> # Class Tasks
 > N/A
 > # Theory
 > N/A
@@ -157,7 +157,7 @@ tags:
 
 > [!info]- Week 17
 > ![[semesterCalendarS1#School Events - Week 17]]
-> # Class **Tasks**
+> # Class Tasks
 > N/A
 > # Theory
 > N/A
@@ -166,7 +166,7 @@ tags:
 
 > [!info]- Week 18
 > ![[semesterCalendarS1#School Events - Week 18]]
-> # Class **Tasks**
+> # Class Tasks
 > N/A
 > # Theory
 > N/A
@@ -175,7 +175,7 @@ tags:
 
 > [!info]- Week 19
 > ![[semesterCalendarS1#School Events - Week 19]]
-> # Class **Tasks**
+> # Class Tasks
 > N/A
 > # Theory
 > N/A
