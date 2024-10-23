@@ -15,11 +15,11 @@ This will be demonstrated here by building a segment of wall that can be duplica
 
 Start by creating a new scene and set the root node to be a Node3D.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/reusableAssets-NewNode.png)
+![Untitled](reusableAssets-NewNode.png)
 
 Rename the node from Node3D to Wall.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/reusableAssets-NameChangeWall.png)
+![Untitled](reusableAssets-NameChangeWall.png)
 
 Build the mesh of the asset you are building. This part of the process will depend on what you’re developing. 
 
@@ -28,35 +28,35 @@ Build the mesh of the asset you are building. This part of the process will depe
 
 For the wall segment, this can be built by creating a `CSGBox3D` as a child node of `Wall`.
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/reusableAssets-WallChildNode.png)
+![Untitled](reusableAssets-WallChildNode.png)
 
 Change to scale mode to resize the box into the shape that you want.
 
 Use the scale controls of the widget to reshape the basic box object.
 
-![Screen Shot 2022-08-25 at 2.00.13 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/reusableAssets-WallScale1.png)
+![Screen Shot 2022-08-25 at 2.00.13 pm.png](reusableAssets-WallScale1.png)
 
-![Untitled](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/reusableAssets-WallScale2.png)
+![Untitled](reusableAssets-WallScale2.png)
 
 Save the Scene. 
 
-![Screen Shot 2022-08-25 at 2.00.48 pm.png](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/reusableAssets-SaveScene.png)
+![Screen Shot 2022-08-25 at 2.00.48 pm.png](reusableAssets-SaveScene.png)
 
 Open the scene that you wish to edit, and drag the `tscn` file you just saved into the position you wish to to be in.
 
-![2022-08-25 14-05-07.2022-08-25 14_06_16.gif](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/reusableAssets-WallInstance.gif)
+![2022-08-25 14-05-07.2022-08-25 14_06_16.gif](reusableAssets-WallInstance.gif)
 
 You can duplicate the node and place the duplicates in position.
 
 Save the Scene once completed.
 
-![2022-08-25 14-06-53.2022-08-25 14_09_36.gif](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/reusableAssets-SaveScene2.gif)
+![2022-08-25 14-06-53.2022-08-25 14_09_36.gif](reusableAssets-SaveScene2.gif)
 
 To edit the master, for instance by applying a texture, open the `tscn` file you saved, make changes and save. 
 
 Once you save the `tscn` file, the instances are automatically updated in the other scene.
 
-![2022-08-25 14-13-03.2022-08-25 14_17_41.gif](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/reusableAssets-WallUpdated.gif)
+![2022-08-25 14-13-03.2022-08-25 14_17_41.gif](reusableAssets-WallUpdated.gif)
 
 
 ![[commonBlocks#Commit & Push]]

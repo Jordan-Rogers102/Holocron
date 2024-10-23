@@ -1,7 +1,25 @@
 
+# Summary
+**Assessment Due**  
+The task will be due Friday 11:59pm.  
+Worth 50%.  
+The task will be posted to Google Classroom, as per normal.
+
+# School Events
+![[semesterCalendarS2#School Events - Week 13]] 
+
 # Video
 
 # Presentation
-[This Week's Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek13.md)
+- [[presentationWeek13]]
+# Class Tasks
+- [[assessment2-2024S2]]
+ - Submit Assessment 2
 
-# Work to submit
+# Theory
+
+
+# Practical
+
+
+# Submission

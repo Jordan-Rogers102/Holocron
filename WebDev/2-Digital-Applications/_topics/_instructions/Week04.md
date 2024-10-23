@@ -1,7 +1,23 @@
 
+# Summary
+
+
+# School Events
+![[semesterCalendarS2#School Events - Week 4]] 
+
 # Video
+![Week 4 - Resume Builder](https://youtu.be/k9czbai5BGo)
 
 # Presentation
-[This Week's Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek05.md)
+- [[presentationWeek04]]
+# Class Tasks
 
-# Work to submit
+
+# Theory
+
+
+# Practical
+- [[resumeBuilder]]
+
+# Submission
+

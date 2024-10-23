@@ -3,8 +3,8 @@
 # Technical Report
 
 For suggestions on how to structure your report, see this page:
+[[technicalReportWriting]]
 
-[Technical Report Writing](_sharedContent/technicalReportWriting.md)
 
 # Assessable Topics 
 

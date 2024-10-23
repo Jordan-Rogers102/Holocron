@@ -6,8 +6,8 @@ See [Sample Task](Cyber/2%20-%20Network%20Administration%20and%20Security/2024S2
 # Technical Report
 
 For suggestions on how to structure your report, see this page:
+[[technicalReportWriting]]
 
-[Technical Report Writing](_sharedContent/technicalReportWriting.md)
 
 
 # Assessable Topics 

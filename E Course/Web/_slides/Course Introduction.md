@@ -4,8 +4,6 @@ highlightTheme: zenburn
 css: css/holocronSlides.css
 ---
 
-
-
 # Welcome To Website Development 
 
 

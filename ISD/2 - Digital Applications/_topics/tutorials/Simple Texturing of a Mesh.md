@@ -17,7 +17,7 @@ For instance, this simple light pole. This is made up of a number of different m
 
 It’s basic, however it works for this purpose. However the colour is bland.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/textureBefore.png]]
+![[textureBefore.png]]
 
 > [!info] Simple objects can be modelled in Godot, however to create more complex objects, you would need to use an external 3D modelling piece of software such as Blender. For a quick development process, create simple objects that you can quickly texture.
 
@@ -28,18 +28,18 @@ Find the images that you wish to texture your object. Import the image into the 
 
 Select the mesh that you wish to texture. You may need to texture each segment individually.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/textureSelectNode.png]]
+![[textureSelectNode.png]]
 
 Expand Geometry in the Inspector, then click the down arrow next to Material and choose New ShaderMaterial.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/textureNewShader.png]]
+![[textureNewShader.png]]
 
 Drag the texture file from the file system tab to the Material. 
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/textureApplyTexture.png]]
+![[textureApplyTexture.png]]
 The mesh should then be textured with the image.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/textureTexturedMesh.png]]
+![[textureTexturedMesh.png]]
 
 Continue the process until all the meshes in the scene are textured as desired.
 

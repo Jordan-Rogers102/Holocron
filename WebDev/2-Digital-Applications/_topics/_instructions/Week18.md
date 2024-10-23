@@ -1,7 +1,21 @@
 
+# Summary
+
+
+# School Events
+![[semesterCalendarS2#School Events - Week 18]] 
+
 # Video
 
 # Presentation
-[This Week's Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek18.md)
+- [[presentationWeek18]]
+# Class Tasks
 
-# Work to submit
+
+# Theory
+
+
+# Practical
+
+
+# Submission

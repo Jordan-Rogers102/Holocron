@@ -1,7 +1,28 @@
 
+# Summary
+
+
+# School Events
+![[semesterCalendarS2#School Events - Week 8]] 
+
 # Video
+![Introduction](https://youtu.be/7B6QERTeYYU)
+
+
+  ![Practical](https://youtu.be/0rY4fMPQtwk)
+![Assessment](https://youtu.be/uCfS1UTsFUA)
+  
 
 # Presentation
-[This Week's Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek08.md)
+- [[presentationWeek08]]
+# Class Tasks
 
-# Work to submit
+- [[assessment2-2024S2]]
+
+# Theory
+
+
+# Practical
+- [[shoppingListPart2]]
+
+# Submission

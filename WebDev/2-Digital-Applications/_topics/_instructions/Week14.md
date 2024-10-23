@@ -1,7 +1,21 @@
 
+# Summary
+Prepare for Interview
+
+# School Events
+![[semesterCalendarS2#School Events - Week 14]] 
+
 # Video
 
 # Presentation
-[This Week's Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek14.md)
+- [[presentationWeek14]]
+# Class Tasks
 
-# Work to submit
+
+# Theory
+
+
+# Practical
+
+
+# Submission

@@ -128,7 +128,7 @@ tags:
 > ![[semesterCalendarS2#School Events - Week 12]]
 > 
 > #### Class Tasks
-> - [ ] [[Cyber/2 - Network Administration and Security/2024S2/Assessment 2 - 2024S2|Assessment 2 - 2024S2]]
+> - [[Cyber/2 - Network Administration and Security/2024S2/Assessment 2 - 2024S2|Assessment 2 - 2024S2]]
 > #### Theory
 > N/A
 > #### Practical

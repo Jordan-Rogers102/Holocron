@@ -204,6 +204,7 @@ N/A
 
 ### Week 12
  ![[semesterCalendarS2#School Events - Week 12]]
+ ![https://youtu.be/M-PTSMAd8Jk](https://youtu.be/M-PTSMAd8Jk)
 
 #### Class Tasks
  -  [[assessment2-2024S2]]

@@ -9,11 +9,11 @@ order: 9
 
 > [!tip]- Global script
 > You may find that you need to create a new script called `Global.gd` if not already created.. This script is not attached to any node, but will be loaded when the game runs and continue running in the background.
-> ![[ISD/2 - Digital Applications/_topics/tutorials/images/pointsGlobalScript.png]]
+> ![[pointsGlobalScript.png]]
 
 Open `Global.gd`. Replace the contents of the file with this code.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pointsGlobalCurrentScore.png]]
+![[pointsGlobalCurrentScore.png]]
 
 ```gdscript
 extends Node
@@ -25,7 +25,7 @@ Save the File.
 
 In Project Settings (Project → Project Settings). Click on the AutoLoad tab. Browse to the `Global.gd` and enter the Node Name as `Global`.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pointsSetAutoLoad.png]]
+![[pointsSetAutoLoad.png]]
 
 End Result
 
@@ -38,24 +38,24 @@ Click Close.
 
 For this example, create a new scene, simply with a cylinder object (`CSGCylinder3d`).  Save the file as `Pickup.tscn`. 
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pickupCylinder.png]]
+![[pickupCylinder.png]]
 
 Create child nodes of the original object to include a mesh that the player can collide with. Add an `Area3D` and then a `CollisionShape3D` child nodes. With the `CollisionShape3D` node selected, set a collision shape as a `CylinderShape3D` to match the mesh.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pickupCollisionArea.png]]
+![[pickupCollisionArea.png]]
 
 Right Click on the Pickup node and attach a script, named `Pickup.gd`. Save the script. There is no need to change the code at this stage.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pickupDefaultScript.png]]
+![[pickupDefaultScript.png]]
 
 
 Select the `Area3D` node, and switch to the Node tab.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pickupSelectNodeTab.png]]
+![[pickupSelectNodeTab.png]]
 
 Double click on the Body Entered signal. Make sure the Pickup node is selected and click Connect.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pickupConnectSignal.png]]
+![[pickupConnectSignal.png]]
 
 
 Enter the following code for the `_on_area_3d_body_entered(body)` function.
@@ -64,7 +64,7 @@ This code check to see if the object that collides with the pickup item is the p
 
 Then it deletes the pickup item.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pickupOnAreaEntered.png]]
+![[pickupOnAreaEntered.png]]
 
 ```gdscript
 if (body.name == "Player"):
@@ -82,7 +82,7 @@ Open the level one scene and place pickup items in your scene.
 
 > [!tip] Remember that the pickup items need to be children of NavigationRegion3D! Don't forget to then re-bake the navmesh.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pickupAddInstances.png]]
+![[pickupAddInstances.png]]
 
 ![[commonBlocks#Commit & Push]]
 
@@ -90,9 +90,9 @@ Open the level one scene and place pickup items in your scene.
 
 Open the Player scene, and make a child node of the `Camera3D`. The node needs to be a label. Name the label `playerScore`.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pickupCameraAddLabel.png]]
+![[pickupCameraAddLabel.png]]
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pickupCameraRenameLabel.png]]
+![[pickupCameraRenameLabel.png]]
 
 > [!note] You can use HBoxes, VBoxes and other methods to place the score label where you wish it to go. This is just a quick example.
 
@@ -102,7 +102,7 @@ Add the following line of code at the end of the function.
 
 Every frame refresh, this code will take the current_score value and update the playerScore label.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/pickupUpdateLabel.png]]
+![[pickupUpdateLabel.png]]
 
 ```gdscript
 $Camera3D/playerScore.text = str(Global.current_score)
@@ -112,3 +112,4 @@ $Camera3D/playerScore.text = str(Global.current_score)
 
 # Expanding the Points Mechanic
 Now that you know how to have items give the player points, you can expand it to different objects in the game. Explore the possibilities!
+

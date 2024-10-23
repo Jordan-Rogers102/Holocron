@@ -1,7 +1,21 @@
 
+# Summary
+No Classes
+
+# School Events
+![[semesterCalendarS2#School Events - Week 19]] 
+
 # Video
 
 # Presentation
-[This Week's Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek19.md)
+- [[presentationWeek19]]
+# Class Tasks
 
-# Work to submit
+
+# Theory
+
+
+# Practical
+
+
+# Submission

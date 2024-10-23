@@ -11,37 +11,37 @@ Every FPS needs an enemy!
 
 Create a new scene (`File`→ `New Scene`) and create the root node as a `RigidBody3D`. This will be the root node of the enemy object.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyNewRoot.png]]
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyCharacterBody3d.png]]
+![[enemyNewRoot.png]]
+![[enemyCharacterBody3d.png]]
 
 Rename the node as `Enemy`.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyRename.png]]
+![[enemyRename.png]]
 
 Add a `MeshInstance3D` as a child of `Enemy`.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyAddMeshInstance3D.png]]
+![[enemyAddMeshInstance3D.png]]
 
 Click on the down arrow next to Mesh and choose New CapsuleMesh.
 
 > [!note] This can be created as whatever type of object you wish, or a custom Mesh.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyNewCapsule.png]]
+![[enemyNewCapsule.png]]
 
 Ensure that the capsule is *vertical*. This simulates the character's body, so needs to stand upright. If the capsule is not vertical, change the rotate values to make it look like this.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyVerticalCapsule.png]]
+![[enemyVerticalCapsule.png]]
 
 # Timer
 
 Add a Timer node as a child of enemy.
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyNewTimer.png]]
+![[enemyNewTimer.png]]
 
 With the Timer selected, set the wait time to something appropriate and set it to Autostart.
 
 In this case, the enemy will wait 2 seconds before starting to move towards the player.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyTimerSettings.png]]
+![[enemyTimerSettings.png]]
 
 
 # Collision Shape
@@ -50,28 +50,28 @@ The last step is to create a Collision Shape (hitbox) for it to interact with ot
 
 Create a `CollisionShape3D` child node of Enemy.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyCollisionShape3D.png]]
+![[enemyCollisionShape3D.png]]
 
 With the CollisionShape3D selected, set the Shape attribute to a Capsule.
 
 > [!note] If you set the MeshInstance3D to be any other shape than a capsule, you may need to modify this step to match.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyCollsionShape.png]]
+![[enemyCollsionShape.png]]
 
 # Navigation Agent
 The next node to add is `NavigationAgent3D`. This is the node that will interact with the NavigationMesh created in another stage.
 
-![enemyNavAgent](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/enemyNavAgent.png)
+![enemyNavAgent](enemyNavAgent.png)
 
 # Script
 
 Attach a new Script to the enemy node.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyAttachScript.png]]
+![[enemyAttachScript.png]]
 
 Replace the script with the following code.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyScript.png]]
+![[enemyScript.png]]
 
 ```gdscript
 extends CharacterBody3D
@@ -100,14 +100,14 @@ func _physics_process(delta):
 
 With the main enemy node selected, set the group to `enemy`.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemyGroup.png]]
+![[enemyGroup.png]]
 
 
 # Save The Scene
 
 Save the scene as `enemy.tscn`. 
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/enemySaveScene.png]]
+![[enemySaveScene.png]]
 
 
 ![[commonBlocks#Commit & Push]]

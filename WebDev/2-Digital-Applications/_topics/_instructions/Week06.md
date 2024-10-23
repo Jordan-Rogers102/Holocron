@@ -1,7 +1,22 @@
 
+# Summary
+
+
+# School Events
+![[semesterCalendarS2#School Events - Week 6]] 
+
 # Video
+![https://youtu.be/N5Szle-XleU](https://youtu.be/N5Szle-XleU)
 
 # Presentation
-[This Week's Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek06.md)
+- [[presentationWeek06]]
+# Class Tasks
 
-# Work to submit
+
+# Theory
+
+
+# Practical
+- [[resumeFinalTouches]]
+
+# Submission

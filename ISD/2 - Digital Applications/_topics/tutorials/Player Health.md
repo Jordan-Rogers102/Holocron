@@ -17,7 +17,7 @@ Open `Player.gd` and add a new variable named `player_health`. Set the initial v
 
 Save the file.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/playerHealthVariable.png]]
+![[playerHealthVariable.png]]
 
 # Detect Collision
 
@@ -29,7 +29,7 @@ Open the `enemy.gd` script and update the `_physics_process` function to detect 
 
 This code checks to see what objects the enemy is colliding with, and if one of those is named "Player", then call the `reduce_health` function on that player (defined below).
  
-![[ISD/2 - Digital Applications/_topics/tutorials/images/playerHealthEnemyDetectCollision.png]]
+![[playerHealthEnemyDetectCollision.png]]
  
 ```gdscript
 for i in get_slide_collision_count():
@@ -41,7 +41,7 @@ for i in get_slide_collision_count():
 
 Finally, once the Enemy collides with the player and reduces health, you would most likely want the enemy to die so it doesn't continue to reduce health. Add a `queue_free()` to the code.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/playerHealthQueueFree.png]]
+![[playerHealthQueueFree.png]]
 
 Save the script.
 
@@ -49,7 +49,7 @@ Save the script.
 
 If not already done, create a new scene and save it as `Lose.tscn`. This scene will be loaded if the player has lost, or in this example, run out of health.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/playerHealthLoseScene.png]]
+![[playerHealthLoseScene.png]]
 
 Design the scene in whichever way you wish, just ensure there is a way for the user to return to the main menu.
 
@@ -58,7 +58,7 @@ Design the scene in whichever way you wish, just ensure there is a way for the u
 Open `Player.gd`.
 To standardise the process for removing health from the player, create a new function to handle the steps. Call the function similar to this: `reduce_health(10)`
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/playerHealthReduceHealthFunction.png]]
+![[playerHealthReduceHealthFunction.png]]
 
 ```gdscript
 func reduce_health(amount):
@@ -69,7 +69,7 @@ func reduce_health(amount):
 
 In the new function, add a check to see if the players health reaches 0, and if so, end the game.
 
-![[ISD/2 - Digital Applications/_topics/tutorials/images/playerHealthDeath.png]]
+![[playerHealthDeath.png]]
 
 ```gdscript
 if player_health < 0:

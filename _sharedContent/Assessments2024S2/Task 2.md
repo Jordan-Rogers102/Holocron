@@ -15,6 +15,11 @@ Project Management could focus on:
 
 In this part detail and analyse the hardware **and** software requirements for the project.
 
+You could include requirements for
+- The project developed (game, system etc)
+- Project management (individual vs team-based etc)
+- How code was managed (GitHub)
+
 ### Intended Outcomes
 
 Analyse what the outcomes of the project were, focusing on the end-user experience.

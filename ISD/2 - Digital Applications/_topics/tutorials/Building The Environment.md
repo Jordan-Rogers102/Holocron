@@ -12,34 +12,34 @@ To start with, the player will need to walk on something, so the first step is t
 
 Right-Click on the Game scene and choose Add Child Node. Search for `MeshInstance3D.`
 
-![Create New Node](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-CreateNewNode.png)
+![Create New Node](fpsEnvironment-CreateNewNode.png)
 
 Rename the node “Floor” or “Ground” or whatever is appropriate. In the Inspector, look for the Mesh attribute. in the dropdown box, choose `New PlaneMesh`.
 
-![Rename Floor](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-FloorRename.png)
+![Rename Floor](fpsEnvironment-FloorRename.png)
 
 
 At this stage, the mesh is there, but the player (created later) will fall straight through it.
 
-![Add Plane Mesh](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-AddPlaneMesh.png)
+![Add Plane Mesh](fpsEnvironment-AddPlaneMesh.png)
 
 Currently, the floor is quite small. The player object that will be created later will be quite significantly larger, so the relative scale will need to be addressed.
 
 Edit the mesh.
 
-![Edit The Mesh](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-EditMesh.png)
+![Edit The Mesh](fpsEnvironment-EditMesh.png)
 
 Set the `x` and `y` size values to something larger. In this case, 20 has been used. This may need to be modified at a later date.
 
-![Resize Plane Mesh](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-ResizePlaneMesh.png)
+![Resize Plane Mesh](fpsEnvironment-ResizePlaneMesh.png)
 
 With the mesh selected, go to the Mesh Menu and choose Create `Trimesh Static Body`.
 
-![Create TriMesh](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-CreateTriMesh.png)
+![Create TriMesh](fpsEnvironment-CreateTriMesh.png)
 
 This updates the mesh to include 2 child nodes.
 
-![New Nodes Created](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-TriMeshNewNodes.png)
+![New Nodes Created](fpsEnvironment-TriMeshNewNodes.png)
 
  <include from="reusableContent.topic" element-id="commitPush"/>
 
@@ -54,17 +54,17 @@ Find an image to suit the environment appropriate for the game.
 
 Store the image in a folder created for Images.
 
-![Create Images Folder](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-CreateImagesFolder.png)
+![Create Images Folder](fpsEnvironment-CreateImagesFolder.png)
 
 Select the `Floor` node. In the inspector, expand out the Material dropdown.
 
-![Expand to show Material](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-ExpandMaterial.png)
+![Expand to show Material](fpsEnvironment-ExpandMaterial.png)
 
 There is currently no material attached, hence why the mesh is white. Click on the dropdown next to [empty] and choose `New StadardMaterial3D`.
 
-![New StandardMaterial3d](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-NewStandardMaterial3D.png)
+![New StandardMaterial3d](fpsEnvironment-NewStandardMaterial3D.png)
 
-![New StandardMaterial3D](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-NewStandardMaterial3D2.png)
+![New StandardMaterial3D](fpsEnvironment-NewStandardMaterial3D2.png)
 
 Click on the white sphere that appears. In the menu that appears, expand `Albedo`. 
 
@@ -72,11 +72,11 @@ Click on the white sphere that appears. In the menu that appears, expand `Albedo
 > [!info] Albedo is the default type for textures. There are many more as you can see in the list.
 
 
-![Albedo](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-MaterialAlbedo.png)
+![Albedo](fpsEnvironment-MaterialAlbedo.png)
 
 Drag the texture from the FileSystem tab to the Texture option under Albedo. The texture on the plane has been updated.
 
-![Apply Texture to Material](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-ApplyMaterial.gif)
+![Apply Texture to Material](fpsEnvironment-ApplyMaterial.gif)
 
 > [!note] This is the same process to texture any of your other assets, unless they’ve been textured prior to importing.
 
@@ -86,13 +86,13 @@ This avoids the image being stretched the fit the size of the plane. s
 
 Choose values that suit the needs of the game and the desired effect. I.e. set the tiles value as high or as low as you wish to give the detail level you want.
 
-![Tiling](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-MaterialTiling.png)
+![Tiling](fpsEnvironment-MaterialTiling.png)
 
 # Add Lighting
 
 The scene at this stage is too dark for the player. Right-click on the Root Node, choose Add Child Node, search for and add a `DirectionalLight3D`.
 
-![Create Directional Light](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-DirectionalLight.png)
+![Create Directional Light](fpsEnvironment-DirectionalLight.png)
 
 With the `DirectionaLight3D` selected, enable Shadows in the Inspector.
 
@@ -100,7 +100,7 @@ Set the Rotational Degrees so that the light is roughly coming down from ‘the 
 
 The position of the directional light is not relevant, however the arrow shown in the image shows the direction the light will travel. 
 
-![Set Direction of Light](ISD/2%20-%20Digital%20Applications/_topics/tutorials/images/FPS-Environment-DirectionalLightDirection.png)
+![Set Direction of Light](fpsEnvironment-DirectionalLightDirection.png)
 
 # Build your Environment
 

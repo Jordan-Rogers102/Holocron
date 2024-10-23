@@ -1,7 +1,23 @@
 
+# Summary
+
+
+# School Events
+![[semesterCalendarS2#School Events - Week 12]] 
+
 # Video
+ ![https://youtu.be/M-PTSMAd8Jk](https://youtu.be/M-PTSMAd8Jk)
+
 
 # Presentation
-[This Week's Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek12.md)
+- [[presentationWeek12]]
+# Class Tasks
 
-# Work to submit
+
+# Theory
+
+
+# Practical
+
+
+# Submission

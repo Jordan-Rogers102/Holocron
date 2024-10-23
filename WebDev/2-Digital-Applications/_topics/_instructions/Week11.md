@@ -1,7 +1,21 @@
 
+# Summary
+
+
+# School Events
+![[semesterCalendarS2#School Events - Week 11]] 
+
 # Video
 
 # Presentation
-[This Week's Presentation](/WebDev/2-Digital-Applications/_topics/_presentations/presentationWeek11.md)
+- [[presentationWeek11]]
+# Class Tasks
+- [[assessment2-2024S2]]
 
-# Work to submit
+# Theory
+
+
+# Practical
+
+
+# Submission

@@ -9,6 +9,8 @@
 
 The goal of the script in this project is to automate the update and configuration of a newly installed Operating System (Raspberry Pi). This particular script configures the Website Server with a MariaDB database backend. 
 
+`image of webserver & dabase server`
+
 ## System Requirements
 
 This BASH script assumes that the operating system is:
@@ -26,6 +28,23 @@ This script assumes the user has familiarity with the console/terminal.
 
 ```bash
 #!/bin/bash
+
+userResponse = ""
+
+echo "This script will update the OS to the latest version, install NTP and set the timezone to Australia/Canberra"
+echo "It will also install Apache2, MySQL and PHP"
+echo "Please ensure you have an active internet connection before running this script"
+
+while [[ "$userResponse" != "y" && "$userResponse" != "n" ]]; do
+read -p "Are you sure you want to continue? (y/n)" userResponse
+userResponse = {$userResponse,, } # tolower
+echo "You entered: $userResponse"
+done
+
+if [ "$userResponse" == "n" ]; then
+    echo "Exiting script"
+    exit 1
+elif  ["$userResponse" == "y" ]; then
 
 echo "Host Name: $(hostname)"
 echo "OS Version: $(cat /etc/issue)"
@@ -47,7 +66,6 @@ blue='\e[1;34m%s\e[0m\n'
 magenta='\e[1;35m%s\e[0m\n'
 cyan='\e[1;36m%s\e[0m\n'
 
-
 system=`arch`
 if [ $system = "i686" ]; then
     # echo "Rasperry Pi 32-bit detected, on Desktop"
@@ -67,18 +85,20 @@ else
     sudo ntpdate 203.62.5.5
 fi
 
-sudo apt dist-upgrade -y
+   sudo apt dist-upgrade -y
 
 # Option 1: Install Apache2, MySQL and PHP together
-sudo apt install apache2 mysql-server -y
+# sudo apt install apache2 mysql-server -y
 
 # Option 2: Install Apache2, MySQL and PHP individually
-# sudo apt install apache2 -y
-# sudo apt install mysql-server -y
-# sudo apt install apache3 -y
+sudo apt install apache2 -y
+sudo apt install mysql-server -y
 
-sudo apt autoremove -y # Remove unnecessary packages
-sudo apt clean # Clean up the package cache
+# sudo apt autoremove -y # Remove unnecessary packages
+# sudo apt clean # Clean up the package cache
+
+
+fi
 ```
 
 The specific goals of this script are (in no specific order):
@@ -88,6 +108,8 @@ The specific goals of this script are (in no specific order):
 - Updates the OS to the latest version.*
 - Cleans up old packages
 - Installs the required server packages
+
+
 
 
 ## CPU Architecture
@@ -130,6 +152,19 @@ echo $system
 ```
 
 ## Current Time
+
+why set time?
+ntp
+-> Why custom ntp server
+
+The Raspberry Devices do not contain a battery to maintain the time when the power is off, unlike most desktops and laptops. Therefore when the raspberry pi OS boots, *it attempts to sync to a time server*. In the network test environment, all NTP traffic is blocked on the network, possibly through a router (ACL), firewall or other security mechanism - this is outside the scope for this report.
+
+Network Time Protocol (NTP) is a service (mostly used by Linux - reference!?) to syncronise the time of a device to a server with a verifiable and correct time. To enable this through the secure test network, a custom-built internal NTP server is used - `203.62.5.5`. (this needs to be expanded slightly with techincal details and references.)
+
+This process is done on Rapsberry Pis, but not when the OS is running in a Virtual Machine on a host computer (running Windows, Mac, Linux) as the virtual machine software automatically syncs the time with the host computer's clock.
+
+Timezone.
+
 
 ## OS Details
 

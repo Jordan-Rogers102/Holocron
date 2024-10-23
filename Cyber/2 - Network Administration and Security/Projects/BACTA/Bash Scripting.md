@@ -144,7 +144,8 @@ echo "Please ensure you have an active internet connection before running this s
 
 while [[ "$userResponse" != "y" && "$userResponse" != "n" ]]; do
 read -p "Are you sure you want to continue? (y/n)" userResponse
-userResponse = ${userResponse,,} # tolower
+userResponse = {$userResponse,, } # tolower
+echo "You entered: $userResponse"
 done
 
 if [ "$userResponse" == "n" ]; then
@@ -194,15 +195,19 @@ fi
    sudo apt dist-upgrade -y
 
 # Option 1: Install Apache2, MySQL and PHP together
-sudo apt install apache2 mysql-server -y
+# sudo apt install apache2 mysql-server -y
 
 # Option 2: Install Apache2, MySQL and PHP individually
 # sudo apt install apache2 -y
 # sudo apt install mysql-server -y
 # sudo apt install apache3 -y
 
-sudo apt autoremove -y # Remove unnecessary packages
-sudo apt clean # Clean up the package cache
+# sudo apt autoremove -y # Remove unnecessary packages
+# sudo apt clean # Clean up the package cache
+
+brew upgrade
+brew autoremove
+brew cleanup
 
 fi
 ```

@@ -1,43 +1,35 @@
-# Instructions
 
-## Log into GitHub
-www.github.com
+# Summary
+Watch Videos
+Accept GitHub Classroom Invite
+Set up Development Environment
 
-## Accept the GitHub Assignment
-[Accept Assignment](/WebDev/_shared/Projects/ANH/acceptAssignment.md)
+# School Events
 
-## OPTIONAL Configure Visual Studio Code & Docker
-You can choose to develop the website in Codespaces, or you can configure your device (not Chromebook) so that you can develop the site with Visual Studio Code and Docker. 
-
-Everything else *should* remain the same as programming in Codespaces, just locally rather than online.
-
-[Configure VSCode And Docker](/WebDev/_shared/Projects/ANH/configureVSCodeAndDocker.md)
-
-## Install SQLite
-[Install SQLite](/WebDev/_shared/Projects/ANH/installSQLite.md)
-
-
-## Run Website
-[Run Project](/WebDev/_shared/Projects/ANH/runProject.md)
-
-
-## Debugging
-[Site Debugging](/WebDev/_shared/Projects/ANH/siteDebugging.md)
+![[semesterCalendarS2#School Events - Week 1]] 
 
 # Video
 
+![Welcome](https://youtu.be/BNpE9kGOL3o)
+
+![Week 1](https://youtu.be/E22avFJkxR4)
 
 # Presentation
+- [[presentationWeek01]]
+# Class Tasks
+- [[CloneHolocron]]
 
-The following file can be viewed as a presentation. After opening it, click the Slide Show Preview Button.
+# Theory
+- [[FlaskVsDjango]]
 
-![openSlidesView](_images/openSlidesView.png)
+# Practical
+- [[acceptAssignment]]
+- OPTIONAL - [[configureVSCodeAndDocker]]
+- [[runProject]]
+- [[siteDebugging]]
 
-[This Week's Presentation](_presentations/presentationWeek01.md)
-
-
-
-# Work to submit
-
-#DigitalTechnologies #DigitalTechnologies/DigitalApplications #Flask #RemoteLearning
-
+# Submission
+Submit the assigned Google Doc with the following information:
+- Explain what exactly Django offers over Flask (features, functionality etc).
+- Considering the plan for this project, which would be a better option - Flask or Django. Why? Or does it make no difference?
+- Screenshots of the database showing a registered user.

@@ -158,11 +158,11 @@ tags:
 > ![[semesterCalendarS2#School Events - Week 12]]
 > 
 > #### Class Tasks
-> -[ ] [[ISD/2 - Digital Applications/2024S2/Assessment 2 - 2024S2|Assessment 2 - 2024S2]]
+> - [[ISD/2 - Digital Applications/2024S2/Assessment 2 - 2024S2|Assessment 2 - 2024S2]]
 > #### Theory
 > N/A
 > #### Practical
-> N/A
+> - [[ISD/2 - Digital Applications/_topics/tutorials/High Score System|High Score System]]
 
 > [!danger]- Week 13
 > ![[semesterCalendarS2#School Events - Week 13]]
