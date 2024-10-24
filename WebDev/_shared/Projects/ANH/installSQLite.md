@@ -8,4 +8,4 @@ Once the project is open, go to the Terminal Tab and enter the following command
 
 Hitting enter after each command.
 
-![sqliteInstall](/WebDev/_shared/Projects/ANH/images/sqliteInstall.png)
+![sqliteInstall](sqliteInstall.png)

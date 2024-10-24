@@ -12,7 +12,7 @@ You'll add:
 - User Photos
 - User Contact Details
 
-![resumeImprovementsFinal](/WebDev/_shared/Projects/ANH/images/resumeImprovementsFinal.png)
+![resumeImprovementsFinal](resumeImprovementsFinal.png)
 
 ---
 

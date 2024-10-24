@@ -2,5 +2,5 @@ To ensure the project is configured correctly, run the project from Codespaces b
 `flask --app app run`
 
 
-![flaskAppAppRun](/WebDev/_shared/Projects/ANH/images/flaskAppAppRun.png)
+![flaskAppAppRun](flaskAppAppRun.png)
 

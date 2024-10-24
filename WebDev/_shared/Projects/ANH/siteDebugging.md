@@ -9,7 +9,7 @@ Running the server in **debug** mode can make this process faster as you don't n
 
 Click on the `Run and Debug` tab, and click on the run button indicated
 
-![flaskDebugRun](/WebDev/_shared/Projects/ANH/images/flaskDebugRun.png)
+![flaskDebugRun](flaskDebugRun.png)
 
 The remainder of your development process will be the same, except you **do not** need to regularly restart the server to test new code!
 

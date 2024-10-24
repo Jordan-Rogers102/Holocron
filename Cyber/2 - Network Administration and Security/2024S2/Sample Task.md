@@ -165,10 +165,25 @@ This process is done on Rapsberry Pis, but not when the OS is running in a Virtu
 
 Timezone.
 
-
-## OS Details
-
 ## Update OS
+
+With Linux, to update the Operating System to include the lastest versions of all software, you need to first update the package list (link). This is done with the `apt update` command as shown below. This `apt` command is the package manager used by Raspberry PiOS. (link)
+
+![[OSAptUpdate.png]]
+
+In the Linux Operating System, the computer stores a list of packages that are currently installed and available to install from the internet. Running the command above, downloads the latest package list of official mirrors.
+
+After updating the package list, the package `ntpdate` is installed to be able to synchronise the time. See [[Sample Task#Current Time|Current Time]] for more details
+
+The final stage in updating the operating system is installing updates to all the packages currently installed. This is done with the `dist-upgrade` option.
+
+![[OSDistUpgrade.png]]
+The `dist-upgrade` option upgrades the Linux operating system to the latest version of the distribution currently installed.
+
+For instance, the latest version (at time of writing) of raspberry pi OS is version 12 (see below)
+![[OSLatestVersion.png]]
+Therefore the command will upgrade the currently installed OS to the latest version of OS 12 (link). Importantly, this command only updates within the same Major version (v12) to the latest minor and patch versions (link). This would not upgrade the OS to version 13 (when it exists).
+
 
 ## Clean up Old Packages
 

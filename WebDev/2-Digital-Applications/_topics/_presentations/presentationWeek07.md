@@ -37,7 +37,7 @@ notes:
 - **U**pdate Shopping Items
 - **D**elete Shopping Items
 
-![shoppingListDatabaseExample](/WebDev/_shared/Projects/ANH/images/shoppingListDatabaseExample.png)
+![shoppingListDatabaseExample](shoppingListDatabaseExample.png)
 
 ---
 # Practical

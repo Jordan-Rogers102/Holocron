@@ -190,14 +190,14 @@ After signing up to Github, join the assignment by clicking on the link.
 
 When you click the link above, you’ll be asked to accept the assignment. Click the Accept button.
 
-  ![[WebDev/1-Digital-Assets/images/SCR-20240202-slsf.png]]
+  ![[SCR-20240202-slsf.png]]
 
 
   
 
 The next page will appear. Wait a minute or two and then refresh the page and you will be presented with your own copy of the github repository.
 
-  ![[WebDev/1-Digital-Assets/images/SCR-20240202-slvf.png]]
+  ![[SCR-20240202-slvf.png]]
 
 
   
@@ -208,21 +208,21 @@ The next page will appear. Wait a minute or two and then refresh the page and yo
 
 In Codespaces, you can click the *Play* button in the main window (with `app.py` open).
 
-  ![[WebDev/1-Digital-Assets/images/SCR-20240202-ucpb.png]]
+  ![[SCR-20240202-ucpb.png]]
 
   
 
 If that doesn’t work, you can type in `flask --debug run` in the terminal tab.
 
-  ![[WebDev/1-Digital-Assets/images/SCR-20240202-ucto.png]]
+  ![[SCR-20240202-ucto.png]]
 
   
 
 Whichever method you use to start the project, then click on the link shown and a new browser tab will open.
 
-  ![[WebDev/1-Digital-Assets/images/SCR-20240202-udoz.png]]
+  ![[SCR-20240202-udoz.png]]
 
-![[WebDev/1-Digital-Assets/images/SCR-20240202-udsz.png]]
+![[SCR-20240202-udsz.png]]
   
 
 After signing up to Github, join the assignment by clicking on the link.

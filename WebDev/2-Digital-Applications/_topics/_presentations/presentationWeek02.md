@@ -18,7 +18,7 @@ Due Friday 11:59pm.
 
 # CRUD
 
-![CRUD](/WebDev/_shared/Projects/ANH/images/todoCRUD.jpeg)
+![CRUD](todoCRUD.jpeg)
 
 note: These are the four fundamental operations to a database.
 They can get VERY complicated, however in essence, you will be only performing 4 operations.
@@ -29,7 +29,7 @@ This weeks task covers all four.
 
 - TODO List!
 
-![todoExampleList](/WebDev/_shared/Projects/ANH/images/todoExampleList.png)
+![todoExampleList](todoExampleList.png)
 
 note: The focus for this week is a complete mini webapp - looking at modifying the database, routes etc to enable users to create their own reminders or TODO app.
 

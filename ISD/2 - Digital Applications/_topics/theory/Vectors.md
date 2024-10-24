@@ -17,7 +17,7 @@ Notice how these position values are stored in the Transform component of the Ga
 
 The position, rotation and scale values in a Transform as measured against the Transform's parent. If the Transform has no parent, they are measured against world space.
 
-![vectorsPositionRelative](ISD/2%20-%20Digital%20Applications/_topics/theory/images/vectorsPositionRelative.png)
+![vectorsPositionRelative](vectorsPositionRelative.png)
 
 ## Relative Positions
 
@@ -27,7 +27,7 @@ For example, in the picture below, the Capsule's position is 0,0,0 however this 
 
 Remember: World zero is position 0, 0, 0
 
-![vectorsPositionParent](ISD/2%20-%20Digital%20Applications/_topics/theory/images/vectorsPositionParent.png)
+![vectorsPositionParent](vectorsPositionParent.png)
 
 # Vectors
 
@@ -38,7 +38,7 @@ Vectors in Godo can be viewed as a line between two points (positions) in a 3D s
 In the example below, the red line represents the magnitude between the two positions (the end points of the line).
 vector
 
-![vectorsXYZ](ISD/2%20-%20Digital%20Applications/_topics/theory/images/vectorsXYZ.jpg)
+![vectorsXYZ](vectorsXYZ.jpg)
 
 ## Magnitude
 
@@ -48,7 +48,7 @@ Unity does the calculation for you automatically, however the logic is that know
 
 Although this is using a 2d image (Vector2), the logic is the same for a 3d world (Vector3). Instead of **x****2** **+ y****2** **= m****2**, it would be **x****2** **+ y****2** **+ z****2****= m****2**
 
-![vectorsMagnitudeMaths](ISD/2%20-%20Digital%20Applications/_topics/theory/images/vectorsMagnitudeMaths.jpg)
+![vectorsMagnitudeMaths](vectorsMagnitudeMaths.jpg)
 
 ## Vector Addition
 
@@ -60,7 +60,7 @@ The process is the same for a 3d vector, just with 3 values. E.g. (2, 1, 2) + (3
 
 This can be useful as you can calculate the final position of a game object given two vectors. As can be seen in the video below, give a starting point of 0,0 and with the first movement (first vector) the object moves to 3,5. Then the object makes another move (second vector), and the object reaches position 5,4.
 
-![vectorsAddition](ISD/2%20-%20Digital%20Applications/_topics/theory/images/vectorsAddition.png)
+![vectorsAddition](vectorsAddition.png)
 
 ## Vector Subtraction
 
@@ -70,7 +70,7 @@ Consider the following picture. Two objects exist at two different positions (a 
 
 Note that depending on the order in which the subtraction occurs, you will have different vectors. b-a and a-b have the same magnitude, but point in opposite directions.
 
-![vectorsSubtraction](ISD/2%20-%20Digital%20Applications/_topics/theory/images/vectorsSubtraction.png)
+![vectorsSubtraction](vectorsSubtraction.png)
 
 ## Dot Product
 
@@ -84,7 +84,7 @@ If they are perpendicular, the dot product would be 0.
 
 If they are facing away from each other (or facing each other), the dot product would be -1.
 
-![vectorsDotProduct](ISD/2%20-%20Digital%20Applications/_topics/theory/images/vectorsDotProduct.png)
+![vectorsDotProduct](vectorsDotProduct.png)
 
 ## Cross Product
 
@@ -96,7 +96,7 @@ For instance, let's say you wanted to have a sail on a boat that is attached to 
 
 This site goes into more detail: [http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-2/](http://www.google.com/url?q=http%3A%2F%2Fblog.wolfire.com%2F2009%2F07%2Flinear-algebra-for-game-developers-part-2%2F&sa=D&sntz=1&usg=AOvVaw2xTPfecIdNAVLTc55l-uhx)
 
-![vectorsCrossProduct](ISD/2%20-%20Digital%20Applications/_topics/theory/images/vectorsCrossProduct.jpg)
+![vectorsCrossProduct](vectorsCrossProduct.jpg)
 
 ## Vector Arithmetic
 
@@ -110,4 +110,4 @@ If you would like more information, or want to study these topics in more depth,
 
 [https://docs.unity3d.com/Manual/VectorCookbook.html](https://docs.unity3d.com/Manual/VectorCookbook.html)
 
-![vectorsMenu](ISD/2%20-%20Digital%20Applications/_topics/theory/images/vectorsMenu.png)
+![vectorsMenu](vectorsMenu.png)

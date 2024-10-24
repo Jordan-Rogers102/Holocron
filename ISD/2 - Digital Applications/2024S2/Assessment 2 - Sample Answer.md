@@ -1,7 +1,16 @@
 
 # Project Overview
 
-  
+
+## Time Management Overview
+
+> [!important] The timings or details may not be accurate. This is just an example.
+> 
+
+![[timeManagementOverview.png]]
+**Include Analysis**
+
+For more details, please see [[Assessment 2 - Sample Answer#Work Skills|Work Skills]].
 
 # Code
 

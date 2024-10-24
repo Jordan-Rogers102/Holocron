@@ -5,7 +5,7 @@ https://classroom.github.com/a/6DQ8yZw8
 
 Clone the repository to your computer using GitHub Desktop (or any method). Choose the newly created repository
 
-![Clone the repository](/_admin/images/repoClone.png)
+![Clone the repository](repoClone.png)
 
 > [!info] Github desktop is the GUI interface to clone, commit, push etc repositories to and from Github that runs on your local computer.
 

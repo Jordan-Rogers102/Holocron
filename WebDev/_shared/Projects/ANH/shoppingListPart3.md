@@ -9,15 +9,15 @@ If you struggled last week here is a very simple breakdown of the completed code
 
 We added a new template to our template folder that scaffolded a new webpage where users could create their shopping lists. We needed to add in a form to the left column so that names of shopping lists could be inputted and then we needed to add a display for the shopping lists in the database:
 
-![shoppingListTemplate1](/WebDev/_shared/Projects/ANH/images/shoppingListTemplate1.png)
+![shoppingListTemplate1](shoppingListTemplate1.png)
 
-![shoppingListTemplate2](/WebDev/_shared/Projects/ANH/images/shoppingListTemplate2.png)
+![shoppingListTemplate2](shoppingListTemplate2.png)
 
 ## app.py
 
 app.py needed to be updated to include a new `route` with the right  methods that could `GET` the data contained in the `shoppingLists` table so it can be displayed as well as `POST` the inputted named to the table to create new shopping lists.
 
-![shoppingListRoute](/WebDev/_shared/Projects/ANH/images/shoppingListRoute.png)
+![shoppingListRoute](shoppingListRoute.png)
 
 
 # Week 9 Tasks
@@ -64,7 +64,7 @@ Also edit `{% block rowTwoColTwoContent %}` to display the items in the shopping
 
 >[!info]- Hint
 >Once implemented the webpage should look something like (remember you still need to add functionality to `app.y` before it will be able to add items to the lists and show those items in `{% block rowTwoColTwoContent %}`):
->![list example](/WebDev/_shared/Projects/ANH/images/shoppingListItemExample1.png)
+>![list example](shoppingListItemExample1.png)
 
 
 ## app.py
@@ -76,7 +76,7 @@ Add a new `route` that will have `GET` and `POST` methods.
 - You will need to query the database. We will need to retrieve the name of the item that needs to be displayed as well as the quantity of that item. Store this data in a variable you could name `list_items`. REMEMBER:
 	- This needs to match the current `userid`
 	- This query will need to `join` and `filter` syntax as we are querying from two different tables in our database
-	- ![shoppingListDataSLexample](/WebDev/_shared/Projects/ANH/images/shoppingListDataSLexample.png)
+	- ![shoppingListDataSLexample](shoppingListDataSLexample.png)
 	- You will also need a `query` for the list name as well
 - You will need an if statement to determine if you are using `GET` or `POST`
 	- `POST` needs to take the new data input in the forms from `{% block rowTwoColOneContent %}` and then:
@@ -108,7 +108,7 @@ The `routes` that these symbols call will be covered in the next section.
 >it won't work fully until the changes to `app.y` have been implemented
 >If these red crosses are clicked the Boolean value `Completed` will change and the red cross will change to a green tick.
 >If the bin is clicked the item will be removed from the shopping list all together
->![shoppingListItemExample2](/WebDev/_shared/Projects/ANH/images/shoppingListItemExample2.png)
+>![shoppingListItemExample2](shoppingListItemExample2.png)
 
 
 ### app.py
@@ -133,4 +133,4 @@ Remember that at the end of both of these `routes` we need to `return.redirect(u
 >
 
 For extension. Will need another column in the table that is enabled/disable and determines if the item is displayed
-![](/WebDev/_shared/Projects/ANH/images/pin.png)
+![](pin.png)

@@ -4,7 +4,7 @@ http://browser-doom.io/?page=game&game=doom&profile=Doom%20(Shareware)
 
 # Analysis Result
 
-![fpsAnalysis](ISD/2%20-%20Digital%20Applications/_topics/theory/images/fpsAnalysis.jpg)
+![fpsAnalysis](fpsAnalysis.jpg)
 
 > [!info] Google Gemini (2024, July 8) 
 ## Level Up Your Game Knowledge: Analyzing FPS Mechanics

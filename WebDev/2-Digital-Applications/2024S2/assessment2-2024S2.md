@@ -39,6 +39,19 @@ Analyse what the outcomes of the project were, focusing on the end-user experien
 
 In this part, focus on the purpose of the project (not just the end product). For instance what learning outcomes could come from project etc.
 
+### Time Management
+For this part include a evidence showing the overall project plan and how the semester was broken up into stages.
+
+So, for example:
+
+> [!important] The timings or details may not be accurate. This is just an example.
+> 
+
+![[timeManagementOverview.png]]
+**Include Analysis**
+
+For more details, please see Work Skills.
+
 ## Code
 
 In this section, focus **only on the aspect identified**. 

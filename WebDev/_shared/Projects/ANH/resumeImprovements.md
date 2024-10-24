@@ -14,11 +14,11 @@
 To support the changes to the resume, new fields need to be added to the `User` table. 
 Open the database view and expand the `User` table.
 
-![resumeImprovementsDatabase](/WebDev/_shared/Projects/ANH/images/resumeImprovementsDatabase.png)
+![resumeImprovementsDatabase](resumeImprovementsDatabase.png)
 
 Hover the mouse over the Columns row, and some buttons will appear on the right. The one of interest is the `Add Column` button. Press that button.
 
-![resumeImprovementsDatabaseAddCol](/WebDev/_shared/Projects/ANH/images/resumeImprovementsDatabaseAddCol.png)
+![resumeImprovementsDatabaseAddCol](resumeImprovementsDatabaseAddCol.png)
 
 
 SQLite doesn't allow the creation of multiple columns in a single command, so each column has to be created separately. Enter the SQL to create two new columns:
@@ -28,7 +28,7 @@ SQLite doesn't allow the creation of multiple columns in a single command, so ea
 | photo          | TEXT      | Store the link to the user's profile picture                                                        |
 | contact_number | TEXT      | Store the user's contact number as text. If stored as an integer, the leading `0` would be dropped. |
 
-![resumeImprovementsSQL](/WebDev/_shared/Projects/ANH/images/resumeImprovementsSQL.png)
+![resumeImprovementsSQL](resumeImprovementsSQL.png)
 ```sql
 ALTER TABLE "User" 
     ADD COLUMN photo TEXT;
@@ -47,16 +47,16 @@ ALTER TABLE "User"
 
 Press the `Run` link on each of the SQL statements. Afterwards, the table will be modified with the new columns. 
 
-> [!tip] You should press the Refresh button to show the new columns. ![resumeImprovementsDatabaseRefresh](/WebDev/_shared/Projects/ANH/images/resumeImprovementsDatabaseRefresh.png)]
+> [!tip] You should press the Refresh button to show the new columns. ![resumeImprovementsDatabaseRefresh](resumeImprovementsDatabaseRefresh.png)]
 
-![resumeImprovementsColumnsCreated](/WebDev/_shared/Projects/ANH/images/resumeImprovementsColumnsCreated.png)
+![resumeImprovementsColumnsCreated](resumeImprovementsColumnsCreated.png)
 
 ## User Model
 As the database structure has changed, the relevant model/s will need to change to match the updates. In this case, the user model needs to include the new fields.
 
 Open `models.py` and update the `User` class.
 
-![resumeImprovementsUserModel](/WebDev/_shared/Projects/ANH/images/resumeImprovementsUserModel.png)
+![resumeImprovementsUserModel](resumeImprovementsUserModel.png)
 
 ```python
 photo = db.Column(db.String(255))
@@ -70,7 +70,7 @@ As the user now has a photo and contact number, the registration process must be
 
 Open `forms.py` and update the `RegistrationForm` class to ask the user for the new data. Note that the photo field is a `FileField` meaning the user will be shown a button to select a file.
 
-![resumeImprovementsRegistationForm](/WebDev/_shared/Projects/ANH/images/resumeImprovementsRegistationForm.png)
+![resumeImprovementsRegistationForm](resumeImprovementsRegistationForm.png)
 
 ```python
 photo = FileField('Photo File Upload', validators=[FileRequired()])
@@ -92,7 +92,7 @@ The approach taken for this project is to rename the file to a unique name when 
 
 Update the import statements at the top of the file to import the `secure_filename` functionality.
 
-![resumeImprovementsImportSecureFilename](/WebDev/_shared/Projects/ANH/images/resumeImprovementsImportSecureFilename.png)
+![resumeImprovementsImportSecureFilename](resumeImprovementsImportSecureFilename.png)
 
 ```python
 from werkzeug.utils import secure_filename
@@ -101,11 +101,11 @@ import os
 
 Additionally, update the `from app import db` line of code to include `ALLOWED_EXTENSIONS, UPLOAD_FOLDER`
 
-![resumeImprovementsImportImageDetails](/WebDev/_shared/Projects/ANH/images/resumeImprovementsImportImageDetails.png)
+![resumeImprovementsImportImageDetails](resumeImprovementsImportImageDetails.png)
 
 Create a new function to determine if the file type the user selects is valid or not.
 
-![resumeImprovementsAllowedFileTypes](/WebDev/_shared/Projects/ANH/images/resumeImprovementsAllowedFileTypes.png)
+![resumeImprovementsAllowedFileTypes](resumeImprovementsAllowedFileTypes.png)
 
 ```python
 # Confirm filetype is allowed
@@ -123,7 +123,7 @@ Update the `register()` function to upload an image, store it, and create the us
 > PURPLE: lines of code has been indented.
 > 
 
-![resumeImprovementsRegistration](/WebDev/_shared/Projects/ANH/images/resumeImprovementsRegistration.png)
+![resumeImprovementsRegistration](resumeImprovementsRegistration.png)
 
 ```python
  new_image = form.photo.data
@@ -148,12 +148,12 @@ Open `register.html`. This page needs to be updated to allow for the collection 
 
 The first change to make is to configure the form to allow for the uploading of images. As there is text data to upload and binary data, the form needs to be configured to accept all data types.
 
-![resumeImprovementsTemplateEncoding](/WebDev/_shared/Projects/ANH/images/resumeImprovementsTemplateEncoding.png)
+![resumeImprovementsTemplateEncoding](resumeImprovementsTemplateEncoding.png)
 
 
 Add the fields for the new data.
 
-![resumeImprovementsFormFields](/WebDev/_shared/Projects/ANH/images/resumeImprovementsFormFields.png)
+![resumeImprovementsFormFields](resumeImprovementsFormFields.png)
 
 ```html
   <p>
@@ -181,12 +181,12 @@ Open the `resumeDisplay.html` template.
 
 Add the user's name in the title.
 
-![resumeImprovementsTemplateUsersName](/WebDev/_shared/Projects/ANH/images/resumeImprovementsTemplateUsersName.png)
+![resumeImprovementsTemplateUsersName](resumeImprovementsTemplateUsersName.png)
 
 
 Update the `rowTwoColOneContent` with the users image and contact details.
 
-![resumeImprovementsTemplateContactDetails](/WebDev/_shared/Projects/ANH/images/resumeImprovementsTemplateContactDetails.png)
+![resumeImprovementsTemplateContactDetails](resumeImprovementsTemplateContactDetails.png)
 
 ```html
 <div class="container-fluid">
@@ -215,7 +215,7 @@ Save the file.
 
 Create a new directory in the `/static/images` folder called `userPhotos`.
 
-![resumeImprovementsUserPhotosDirectory](/WebDev/_shared/Projects/ANH/images/resumeImprovementsUserPhotosDirectory.png)
+![resumeImprovementsUserPhotosDirectory](resumeImprovementsUserPhotosDirectory.png)
 
 > [!important] Do not create the folder under the `/images/` folder, but the `/static/images` folder.
 
@@ -225,7 +225,7 @@ Create a new directory in the `/static/images` folder called `userPhotos`.
 
 `app.py` will require several changes to process the storage of images. To simplify and centralise the process, a single folder will be defined for the storage of user images, as well as the acceptable file extensions for images.
 
-![resumeImprovementsImageConfig](/WebDev/_shared/Projects/ANH/images/resumeImprovementsImageConfig.png)
+![resumeImprovementsImageConfig](resumeImprovementsImageConfig.png)
 
 ```python
 # Image Upload Configuration

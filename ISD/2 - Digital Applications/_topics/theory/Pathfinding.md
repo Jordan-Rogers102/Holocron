@@ -33,7 +33,7 @@ The algorithm calculates the path based on the cheapest cost to get from the sta
 
 You'll notice that because of the additional cost involved, the algorithm avoids the water tiles as much as possible.
 
-![aStarExample](ISD/2%20-%20Digital%20Applications/_topics/theory/images/aStarExample.gif)
+![aStarExample](aStarExample.gif)
 
 ## Overview
 
@@ -45,14 +45,14 @@ This image shows a grid of nodes (blue circles) to represent all possible paths 
 
 What is the most efficient route? You could guess the path just by looking at the image, but **this is a logical representation** of the mesh of nodes. The distances between the nodes on the image is not to scale.
 
-![aStarNodesEdges](ISD/2%20-%20Digital%20Applications/_topics/theory/images/aStarNodesEdges.png)
+![aStarNodesEdges](aStarNodesEdges.png)
 
 You have to consider the cost of each node and edge. Let's add those costs.
 
 ### Costs
 In this version, you can see the costs (in green squares) of travelling each edge has been added. Now you have more data to use to calculate the most efficient path.
 
-![aStarTravellingCost](ISD/2%20-%20Digital%20Applications/_topics/theory/images/aStarTravellingCost.png)
+![aStarTravellingCost](aStarTravellingCost.png)
 
 
 ### First Guess
@@ -61,7 +61,7 @@ Looking at the red dotted line as the first guess, the cost of that path is a 1 
 
 Which path is the most efficient?
 
-![aStarFirstGuess](ISD/2%20-%20Digital%20Applications/_topics/theory/images/aStarFirstGuess.png)
+![aStarFirstGuess](aStarFirstGuess.png)
 
 
 ### Solution?
@@ -71,7 +71,7 @@ Based on the costs of each travelling to each node, possibly the most efficient 
 The cost of the indicated path is 4.
 
 
-![aStarSolution](ISD/2%20-%20Digital%20Applications/_topics/theory/images/aStarSolution.png)
+![aStarSolution](aStarSolution.png)
 
 > [!info] It's important to note that in the example above, there is only one cost listed for travelling each edge. In reality there can be many costs. If you consider a GPS navigation system, there would be traffic, speed limit, accidents, roadworks, number of traffic lights or roundabouts etc.
 > The A* Algorithm can take any number of costs associated with the edges and nodes to find the most efficient path.
@@ -83,7 +83,7 @@ If the costs are different, the resultant path may be vastly different.
 What's the most efficient path in this example?
 
 
-![aStartCostChange](ISD/2%20-%20Digital%20Applications/_topics/theory/images/aStartCostChange.png)
+![aStartCostChange](aStartCostChange.png)
 
 ## How Does the Computer Do It?
 
@@ -97,7 +97,7 @@ Which node does it choose first? The one with the lowest cost.
 
 Given the cost of the edge from the starting node, the cost to get to the adjacent nodes is both 1.
 
-![aStarStep1](ISD/2%20-%20Digital%20Applications/_topics/theory/images/aStarStep1.png)
+![aStarStep1](aStarStep1.png)
 
 ### Stage 2
 
@@ -107,13 +107,13 @@ With the path costs, it is now possible to prioritise some paths over another. A
 
 The most efficient routes are the ones indicated by the arrows. They are prioritised because they have the lowest cost thus far.
 
-![aStarStep2](ISD/2%20-%20Digital%20Applications/_topics/theory/images/aStarStep2.png)
+![aStarStep2](aStarStep2.png)
 
 ### Stage 3+
 
 The process continues calculating as many paths as required to reach the destination. It starts each stage with the lowest cost path to check if that path is more efficient than all other paths.
 
-![aStarStep3](ISD/2%20-%20Digital%20Applications/_topics/theory/images/aStarStep3.png)
+![aStarStep3](aStarStep3.png)
 ## Limitations Of A*
 
 While A* is great for calculating a path between two set points, it struggles when the nodes are not static - i.e. when they move. The algorithm doesn't cater well for walls or obstacles that can move, because then the path has to be recalculated

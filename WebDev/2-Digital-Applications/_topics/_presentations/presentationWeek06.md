@@ -23,7 +23,7 @@ Add skills - users rate their skill level
 ---
 # Goal
 
-![resumeFinalFull](/WebDev/_shared/Projects/ANH/images/resumeFinalFull.png)
+![resumeFinalFull](resumeFinalFull.png)
 
 ---
 
@@ -32,7 +32,7 @@ Add skills - users rate their skill level
 - R&D time!
 - Allow the user to print their Resume!
 
-![resumeFinalPrintFail](/WebDev/_shared/Projects/ANH/images/resumeFinalPrintFailSmall.png)
+![resumeFinalPrintFail](resumeFinalPrintFailSmall.png)
 
 ---
 

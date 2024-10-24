@@ -14,7 +14,7 @@ Outputs:
 
 ## Example
 
-![commentsFunction](ISD/2%20-%20Digital%20Applications/_topics/theory/images/commentsFunction.png)
+![commentsFunction](commentsFunction.png)
 
 # Inline Comments
 
@@ -22,7 +22,7 @@ The other type of code comments is "inline" comments. These are used to explain 
 
 ## Example
 
-![commentsInline](ISD/2%20-%20Digital%20Applications/_topics/theory/images/commentsInline.png)
+![commentsInline](commentsInline.png)
 
 
 # MORE INFORMATION
